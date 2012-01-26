@@ -1,0 +1,37 @@
+Source: mate-note
+Section: misc
+Priority: optional
+Maintainer: Vincent Cheng <Vincentc1208@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~),
+ bzip2,
+ automake1.11 | automake1.10 | automake (>= 1:1.10),
+ autoconf (>= 2.53),
+ pkg-config (>= 0.14.0),
+ libgtk2.0-dev (>= 2.12),
+ libglibmm-2.4-dev,
+ libgtkmm-2.4-dev,
+ libmatepanelapplet-dev,
+ libgtkspell-dev,
+ libxml2-dev,
+ libmateconf-dev,
+ uuid-dev,
+ libboost-dev,
+ libboost-test-dev,
+ libpcre++-dev,
+ intltool (>= 0.35),
+ mate-doc-utils,
+ mate-doc-utils-gnome | gnome-doc-utils,
+ rarian-compat,
+ libxslt1-dev,
+ libdbus-c++-dev
+Standards-Version: 3.9.2
+
+Package: mate-note
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgtk2.0-0 (>= 2.14) | xdg-utils
+Description: desktop note taking program using Wiki style links
+ Mnote is a desktop note-taking application which is simple and easy to
+ use. It lets you organise your notes intelligently by allowing you to
+ easily link ideas together with Wiki style interconnects.
+ .
+ It is a port of Tomboy to C++ and consumes less resources.

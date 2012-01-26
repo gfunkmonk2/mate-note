@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+export LDFLAGS=-Wl,--as-needed
+
+%:
+	dh $@ 
+
+override_dh_auto_configure:
+	dh_auto_configure -- --disable-scrollkeeper --disable-static \
+	--disable-schemas-install
+
+override_dh_auto_build:
+	$(MAKE) -C src/dbus
+	grep -Rl '<dbus-c++-1/dbus-c++/dbus.h>' . | xargs sed -i 's#<dbus-c++-1/dbus-c++/#<dbus-c++-1/dbus-c++/#g'
+	dh_auto_build
+
+override_dh_install:
+	find . -name "*.la" -delete
+	dh_install

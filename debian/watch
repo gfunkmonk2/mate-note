@@ -1,0 +1,2 @@
+version=3
+http://ftp.mate.org/pub/MATE/sources/mnote/([\d\.]+)/mnote-(.*)\.tar\.bz2

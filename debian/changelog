@@ -1,0 +1,24 @@
+mate-note (1.0.0-5) oneiric; urgency=low
+
+  * MATE Desktop webpage link in about
+
+ -- Matt Rinsch <gfunkmonk@gmail.com>  Tue, 24 Jan 2012 03:07:39 -0500
+
+mate-note (1.0.0-4) oneiric; urgency=low
+
+  * fix take two
+
+ -- Matt Rinsch <gfunkmonk@gmail.com>  Mon, 23 Jan 2012 22:07:15 -0500
+
+mate-note (1.0.0-3) oneiric; urgency=low
+
+  * Fix dbusc++ include.
+
+ -- Matt Rinsch <gfunkmonk@gmail.com>  Thu, 19 Jan 2012 16:54:23 -0500
+
+mate-note (1.0.0-2) oneiric; urgency=low
+
+  * Fork Gnote to MATE
+
+ -- Matt Rinsch <gfunkmonk@gmail.com>  Mon, 16 Jan 2012 20:15:29 -0500
+

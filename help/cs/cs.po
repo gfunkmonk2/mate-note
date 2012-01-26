@@ -1,0 +1,2028 @@
+# Czech translation of mnote help.
+# Copyright (C) 2009, 2010, 2011 mnote's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mnote package.
+#
+# Marek Černocký <marek@manet.cz>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mnote stable-0.7\n"
+"POT-Creation-Date: 2011-05-31 20:45+0000\n"
+"PO-Revision-Date: 2011-05-22 15:32+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <mate-cs-list@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: C/legal.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU "
+"Free Documentation License, verze 1.1 nebo jakékoli další verze vydané "
+"nadací Free Software Foundation; bez neměnných oddílů, bez textů předních "
+"desek a bez textů zadních desek. Kopie této licence je zahrnuta v oddílu "
+"jménem <ulink type=\"help\" url=\"ghelp:fdl\">GNU Free Documentation "
+"License</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou."
+
+#: C/legal.xml:12(para)
+msgid ""
+"This manual is part of a collection of MATE manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Tato příručka je součástí kolekce příruček MATE, distribuovaných pod "
+"licencí GNU FDL. Pokud chcete tento dokument šířit odděleně od kolekce, "
+"musíte přiložit kopii licence dle popisu v sekci 6 dané licence."
+
+#: C/legal.xml:19(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any MATE "
+"documentation, and the members of the MATE Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Mnoho užívaných jmen určených k zviditelnění produktů nebo služeb jsou "
+"ochranné známky. Na místech, kde jsou tato jména v dokumentaci užita a "
+"členové Dokumentačního projektu MATE jsou si vědomi skutečnosti, že se "
+"jedná o ochrannou známku, je takové jméno psáno velkými písmeny celé nebo s "
+"velkým písmenem na začátku."
+
+#: C/legal.xml:35(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND "
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"DOKUMENT JE POSKYTOVÁN V PODOBĚ „JAK JE“ BEZ ZÁRUKY V JAKÉKOLIV PODOBĚ, "
+"NEPOSKYTUJÍ SE ANI ODVOZENÉ ZÁRUKY, ZÁRUKY, ŽE DOKUMENT, NEBO JEHO UPRAVENÁ "
+"VERZE, JE BEZCHYBNÝ NEBO ZÁRUKY PRODEJNOSTI, VHODNOSTI PRO URČITÝ ÚČEL NEBO "
+"NEPORUŠENOSTI. RIZIKO NEKVALITY, NEPŘESNOSTI A ŠPATNÉHO PROVEDENÍ DOKUMENTU, "
+"NEBO JEHO UPRAVENÉ VERZE, LEŽÍ NA VÁS. POKUD KVŮLI TOMUTO DOKUMENTU, NEBO "
+"JEHO UPRAVENÉ VERZI, NASTANE PROBLÉM, VY (NIKOLIV PŮVODNÍ AUTOR NEBO "
+"JAKÝKOLIV PŘISPĚVATEL) PŘEBÍRÁTE JAKÉKOLIV NÁKLADY ZA NUTNÉ ÚPRAVY, OPRAVY "
+"ČI SLUŽBY. TOTO PROHLÁŠENÍ O ZÁRUCE PŘEDSTAVUJE ZÁKLADNÍ SOUČÁST TÉTO "
+"LICENCE. BEZ TOHOTO PROHLÁŠENÍ NENÍ, PODLE TÉTO DOHODY, POVOLENO UŽÍVÁNÍ ANI "
+"ÚPRAVY TOHOTO DOKUMENTU; DÁLE ZA ŽÁDNÝCH OKOLNOSTÍ A ŽÁDNÝCH PRÁVNÍCH "
+"PŘEDPOKLADŮ, AŤ SE JEDNÁ O PŘEČIN (VČETNĚ NEDBALOSTNÍCH), SMLOUVU NEBO JINÉ, "
+"NENÍ AUTOR, PŮVODNÍ PISATEL, KTERÝKOLIV PŘISPĚVATEL NEBO KTERÝKOLIV "
+"DISTRIBUTOR TOHOTO DOKUMENTU NEBO UPRAVENÉ VERZE DOKUMENTU NEBO KTERÝKOLIV "
+"DODAVATEL NĚKTERÉ Z TĚCHTO STRAN ODPOVĚDNÝ NĚJAKÉ OSOBĚ ZA PŘÍMÉ, NEPŘÍMÉ, "
+"SPECIÁLNÍ, NAHODILÉ NEBO NÁSLEDNÉ ŠKODY JAKÉHOKOLIV CHARAKTERU, VČETNĚ, ALE "
+"NEJEN, ZA POŠKOZENÍ ZE ZTRÁTY DOBRÉHO JMÉNA, PŘERUŠENÍ PRÁCE, PORUCHY NEBO "
+"NESPRÁVNÉ FUNKCE POČÍTAČE NEBO JINÉHO A VŠECH DALŠÍCH ŠKOD NEBO ZTRÁT "
+"VYVSTÁVAJÍCÍCH Z NEBO VZTAHUJÍCÍCH SE K POUŽÍVÁNÍ TOHOTO DOKUMENTU NEBO "
+"UPRAVENÝCH VERZÍ DOKUMENTU, I KDYŽ BY TAKOVÁTO STRANA BYLA INFORMOVANÁ O "
+"MOŽNOSTI TAKOVÉHOTO POŠKOZENÍ."
+
+#: C/legal.xml:28(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr ""
+"DOKUMENT A JEHO UPRAVENÉ VERZE JSOU ŠÍŘENY V SOULADU SE ZNĚNÍM LICENCE GNU "
+"FREE DOCUMENTATION LICENSE S NÁSLEDUJÍCÍM USTANOVENÍM: <placeholder-1/>"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:269(None)
+msgid ""
+"@@image: 'figures/mnote-panel.png'; md5=78116ce257a0bb981d172d71d9f10ade"
+msgstr ""
+"@@image: 'figures/mnote-panel.png'; md5=78116ce257a0bb981d172d71d9f10ade"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:397(None)
+msgid ""
+"@@image: 'figures/mnote-new-note.png'; md5=ba337ad3ae256f3fdf79afeef82d7883"
+msgstr ""
+"@@image: 'figures/mnote-new-note.png'; md5=ba337ad3ae256f3fdf79afeef82d7883"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:796(None)
+msgid ""
+"@@image: 'figures/mnote-main-menu.png'; md5=5ad7e2a0a85c7529f9299c2482fdb1b5"
+msgstr ""
+"@@image: 'figures/mnote-main-menu.png'; md5=5ad7e2a0a85c7529f9299c2482fdb1b5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:952(None)
+msgid ""
+"@@image: 'figures/new-notebook.png'; md5=f9ea2a275fd60c07cc97d24b6c48e3c1"
+msgstr ""
+"@@image: 'figures/new-notebook.png'; md5=f9ea2a275fd60c07cc97d24b6c48e3c1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:993(None)
+msgid ""
+"@@image: 'figures/add-notebook-search.png'; "
+"md5=08904e8991acbd560c4a7b378c3598a6"
+msgstr ""
+"@@image: 'figures/add-notebook-search.png'; "
+"md5=08904e8991acbd560c4a7b378c3598a6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:1030(None)
+msgid ""
+"@@image: 'figures/add-to-notebook.png'; md5=03469ddb5137f525ac4f8318caed5532"
+msgstr ""
+"@@image: 'figures/add-to-notebook.png'; md5=5760fc8ee2fa82305419d22577c180d9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:1070(None)
+msgid ""
+"@@image: 'figures/note-template.png'; md5=49ee364d7e060de4e7a583e49a2f7db7"
+msgstr ""
+"@@image: 'figures/note-template.png'; md5=c8ba8d9e576e1d1bc76c286d63928ef6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:1106(None)
+msgid ""
+"@@image: 'figures/delete-notebook.png'; md5=d62996b723d885975fd849bcde0bdf11"
+msgstr ""
+"@@image: 'figures/delete-notebook.png'; md5=d62996b723d885975fd849bcde0bdf11"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:1153(None)
+msgid ""
+"@@image: 'figures/mnote-preferences-synchronization.png'; "
+"md5=68e7a980720d8e9e1384cab9960a7adc"
+msgstr ""
+"@@image: 'figures/mnote-preferences-synchronization.png'; "
+"md5=68e7a980720d8e9e1384cab9960a7adc"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:1303(None)
+msgid ""
+"@@image: 'figures/mnote-preferences-editing.png'; "
+"md5=24817aaf239cb0f355c6c23f61fbecb2"
+msgstr ""
+"@@image: 'figures/mnote-preferences-editing.png'; "
+"md5=24817aaf239cb0f355c6c23f61fbecb2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:1362(None)
+msgid ""
+"@@image: 'figures/mnote-preferences-hotkeys.png'; "
+"md5=c2c4a95770f798642184a71a8cd9785f"
+msgstr ""
+"@@image: 'figures/mnote-preferences-hotkeys.png'; "
+"md5=c2c4a95770f798642184a71a8cd9785f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/mnote.xml:1395(None)
+msgid ""
+"@@image: 'figures/mnote-preferences-add-ins.png'; "
+"md5=f12b6f8820a42b47fa97dc6b31980ff5"
+msgstr ""
+"@@image: 'figures/mnote-preferences-add-ins.png'; "
+"md5=f12b6f8820a42b47fa97dc6b31980ff5"
+
+#: C/mnote.xml:23(title)
+msgid "Mnote Manual"
+msgstr "Příručka k Poznámkám Mnote"
+
+#: C/mnote.xml:26(para)
+msgid ""
+"Mnote is a simple desktop note-taking application, with some powerful built-"
+"in features to help you organize your ideas."
+msgstr ""
+"Mnote je jednoduchá aplikace pro psaní poznámek na pracovní ploše. Obsahuje "
+"některé pokročilé funkce, která vám pomohou udržet si ve svých poznámkách "
+"přehled."
+
+#: C/mnote.xml:31(year) C/mnote.xml:37(year) C/mnote.xml:43(year)
+#: C/mnote.xml:49(year) C/mnote.xml:55(year) C/mnote.xml:61(year)
+msgid "2008"
+msgstr "2008"
+
+#: C/mnote.xml:33(holder)
+msgid "Alex Graveley"
+msgstr "Alex Graveley"
+
+#: C/mnote.xml:39(holder)
+msgid "Brent Smith"
+msgstr "Brent Smith"
+
+#: C/mnote.xml:45(holder)
+msgid "Free Software Foundation"
+msgstr "Free Software Foundation"
+
+#: C/mnote.xml:51(holder) C/mnote.xml:213(para)
+msgid "Boyd Timothy"
+msgstr "Boyd Timothy"
+
+#: C/mnote.xml:57(holder) C/mnote.xml:201(para)
+msgid "Sandy Armstrong"
+msgstr "Sandy Armstrong"
+
+#: C/mnote.xml:63(holder) C/mnote.xml:189(para)
+msgid "Paul Cutler"
+msgstr "Paul Cutler"
+
+#: C/mnote.xml:67(year)
+msgid "2009"
+msgstr "2009"
+
+#: C/mnote.xml:69(holder) C/mnote.xml:225(para)
+msgid "Hubert Figuiere"
+msgstr "Hubert Figuiere"
+
+#: C/mnote.xml:80(publishername) C/mnote.xml:96(orgname)
+#: C/mnote.xml:108(orgname) C/mnote.xml:120(orgname) C/mnote.xml:132(orgname)
+#: C/mnote.xml:144(orgname) C/mnote.xml:156(orgname) C/mnote.xml:191(para)
+#: C/mnote.xml:203(para) C/mnote.xml:215(para) C/mnote.xml:227(para)
+msgid "MATE Documentation Project"
+msgstr "Dokumentační projekt MATE"
+
+#: C/mnote.xml:91(firstname)
+msgid "Hubert"
+msgstr "Hubert"
+
+#: C/mnote.xml:93(surname)
+msgid "Figuiere"
+msgstr "Figuiere"
+
+#: C/mnote.xml:98(email)
+msgid "hub@figuiere.net"
+msgstr "hub@figuiere.net"
+
+#: C/mnote.xml:103(firstname)
+msgid "Alex"
+msgstr "Alex"
+
+#: C/mnote.xml:105(surname)
+msgid "Graveley"
+msgstr "Graveley"
+
+#: C/mnote.xml:110(email)
+msgid "alex@beatniksoftware.com"
+msgstr "alex@beatniksoftware.com"
+
+#: C/mnote.xml:115(firstname)
+msgid "Brent"
+msgstr "Brent"
+
+#: C/mnote.xml:117(surname)
+msgid "Smith"
+msgstr "Smith"
+
+#: C/mnote.xml:122(email)
+msgid "mate@nextreality.net"
+msgstr "mate@nextreality.net"
+
+#: C/mnote.xml:127(firstname)
+msgid "Boyd"
+msgstr "Boyd"
+
+#: C/mnote.xml:129(surname)
+msgid "Timothy"
+msgstr "Timothy"
+
+#: C/mnote.xml:134(email)
+msgid "btimothy@gmail.com"
+msgstr "btimothy@gmail.com"
+
+#: C/mnote.xml:139(firstname)
+msgid "Sandy"
+msgstr "Sandy"
+
+#: C/mnote.xml:141(surname)
+msgid "Armstrong"
+msgstr "Armstrong"
+
+#: C/mnote.xml:146(email)
+msgid "sanfordarmstrong@gmail.com"
+msgstr "sanfordarmstrong@gmail.com"
+
+#: C/mnote.xml:151(firstname)
+msgid "Paul"
+msgstr "Paul"
+
+#: C/mnote.xml:153(surname)
+msgid "Cutler"
+msgstr "Cutler"
+
+#: C/mnote.xml:158(email)
+msgid "pcutler@foresightlinux.org"
+msgstr "pcutler@foresightlinux.org"
+
+#: C/mnote.xml:184(revnumber)
+msgid "Tomboy Manual 4.0"
+msgstr "Příručka V4.0 k aplikaci Tomboy"
+
+#: C/mnote.xml:186(date)
+msgid "2008-03-07"
+msgstr "7.3.2008"
+
+#: C/mnote.xml:196(revnumber)
+msgid "Tomboy Manual 3.0"
+msgstr "Příručka V3.0 k aplikaci Tomboy"
+
+#: C/mnote.xml:198(date)
+msgid "2007-09-13"
+msgstr "13.9.2007"
+
+#: C/mnote.xml:208(revnumber)
+msgid "Tomboy Manual 2.0"
+msgstr "Příručka V2.0 k aplikaci Tomboy"
+
+#: C/mnote.xml:210(date)
+msgid "2007-02-28"
+msgstr "28.2.2007"
+
+#: C/mnote.xml:220(revnumber)
+msgid "Mnote Manual 1.0"
+msgstr "Příručka V1.0 k aplikaci Mnote"
+
+#: C/mnote.xml:222(date)
+msgid "2009-04-07"
+msgstr "7.4.2009"
+
+#: C/mnote.xml:233(releaseinfo)
+msgid "This manual describes version 0.1.1 of Mnote"
+msgstr "Tato příručka popisuje aplikaci Mnote ve verzi 0.1.1"
+
+#: C/mnote.xml:236(title)
+msgid "Feedback"
+msgstr "Ohlasy"
+
+#: C/mnote.xml:238(para)
+msgid ""
+"To report a bug or make a suggestion regarding the Mnote application or this "
+"manual, follow the directions in the <ulink type=\"help\" url=\"ghelp:mate-"
+"feedback\">MATE Feedback Page</ulink>."
+msgstr ""
+"Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k aplikaci "
+"Mnote nebo této příručce, postupujte dle instrukcí na stránce <ulink url="
+"\"ghelp:mate-feedback\" type=\"help\">Stránka s ohlasy na MATE</ulink>."
+
+#: C/mnote.xml:248(primary) C/mnote.xml:252(primary)
+msgid "Mnote"
+msgstr "Mnote"
+
+#: C/mnote.xml:256(primary)
+msgid "notes"
+msgstr "poznámky"
+
+#: C/mnote.xml:262(title)
+msgid "Introduction"
+msgstr "Úvod"
+
+#: C/mnote.xml:265(title)
+msgid "Notes Application"
+msgstr "Aplikace na psaní poznámek"
+
+#: C/mnote.xml:274(para)
+msgid ""
+"Mnote is a desktop note-taking application for MATE. It is simple and easy "
+"to use, and allows you to organize the ideas and information you deal with "
+"every day. Mnote has some very useful editing features to help you customize "
+"your notes, including:"
+msgstr ""
+"Mnote je aplikace na poznámky na pracovní ploše pro MATE. Je jednoduchá a "
+"snadno použitelná a umožňuje vám uspořádat si své nápady a informace, se "
+"kterými pracujete dennodenně. Mnote má pár velmi užitečných editačních "
+"funkcí, které vám pomohou si poznámky přizpůsobit, včetně:"
+
+#: C/mnote.xml:281(para)
+msgid "Highlighting Search Text"
+msgstr "Zvýrazňování hledaného textu"
+
+#: C/mnote.xml:285(para)
+msgid "Inline Spell Checking"
+msgstr "Zabudované kontroly pravopisu"
+
+#: C/mnote.xml:289(para)
+msgid "Auto-linking Web &amp; Email Addresses"
+msgstr "Automatických odkazů na weby a e-mailové adresy"
+
+#: C/mnote.xml:293(para)
+msgid "Undo/Redo Support"
+msgstr "Podpory funkcí zpět/znovu"
+
+#: C/mnote.xml:297(para)
+msgid "Font Styling &amp; Sizing"
+msgstr "Nastavení stylu a velikosti písma"
+
+#: C/mnote.xml:301(para) C/mnote.xml:806(title)
+msgid "Bulleted Lists"
+msgstr "Bodových seznamů"
+
+#: C/mnote.xml:305(para)
+msgid ""
+"Mnote is accessed through the MATE panel. To startup Mnote automatically "
+"when you log into MATE, see <xref linkend=\"add-to-panel\"/>."
+msgstr ""
+"Aplikace Mnote je přístupná z panelu MATE. Pokud chcete, aby se spouštěla "
+"automaticky po přihlášení do MATE, podívejte se na postup, který popisuje  "
+"<xref linkend=\"add-to-panel\"/>."
+
+#: C/mnote.xml:313(title)
+msgid "Getting Started"
+msgstr "Začínáme"
+
+#: C/mnote.xml:316(title)
+msgid "Adding Mnote to the Panel"
+msgstr "Přidání Mnote na panel MATE"
+
+#: C/mnote.xml:318(para)
+msgid ""
+"To add Mnote to a panel, right-click on the panel, then choose "
+"<menuchoice><guimenuitem>Add to Panel</guimenuitem></menuchoice>. Select "
+"Mnote in the Add to the panel dialog, then click <menuchoice><guibutton>Add</"
+"guibutton></menuchoice>. You should see a yellow note icon appear in the "
+"panel, representing Mnote. The panel icon is illustrated in <xref linkend="
+"\"mnote-panel\"/>."
+msgstr ""
+"Mnote přidáte na panel MATE tak, že kliknete na panel pravým tlačítkem a "
+"zvolíte <menuchoice><guimenuitem>Přidat na panel</guimenuitem></menuchoice>. "
+"V dialogovém okně Přidat na panel vyberete Poznámky Mnote a po té kliknete "
+"na <menuchoice><guibutton>Přidat</guibutton></menuchoice>. Měli byste na "
+"panelu vidět ikonu žlutého poznámkového bločku, která reprezentuje Mnote. Na "
+"ilustrační obrázek ikony se můžete podívat v kapitole <xref linkend=\"mnote-"
+"panel\"/>."
+
+#: C/mnote.xml:330(title)
+msgid "Creating Notes"
+msgstr "Vytváření poznámek"
+
+#: C/mnote.xml:332(para)
+msgid ""
+"Once you have successfully added Mnote to the Panel, you can create new "
+"notes using one of the following methods."
+msgstr ""
+"Jakmile máte aplikaci Mnote úspěšně přidanou na panel, můžete vytvářet nové "
+"poznámky pomocí následujících postupů:"
+
+#: C/mnote.xml:335(para)
+msgid "To create a new note using the mouse:"
+msgstr "Vytvoření nové poznámky pomocí myši:"
+
+#: C/mnote.xml:339(para)
+msgid ""
+"Click on the Mnote note icon present in the MATE Panel. A menu will appear."
+msgstr "Klikněte na ikonu Mnote zobrazenou na panelu MATE. Objeví se nabídka."
+
+#: C/mnote.xml:344(para)
+msgid ""
+"Select the <menuchoice><guimenuitem>Create New Note</guimenuitem></"
+"menuchoice> option in the menu."
+msgstr ""
+"V nabídce zvolte položku <menuchoice><guimenuitem>Vytvořit novou poznámku</"
+"guimenuitem></menuchoice>."
+
+#: C/mnote.xml:350(para)
+msgid "To create a new note using the keyboard:"
+msgstr "Vytvoření nové poznámky pomocí klávesnice:"
+
+#: C/mnote.xml:354(para)
+msgid ""
+"Open the Mnote menu using the key combination <keycombo><keycap>Alt</"
+"keycap><keycap>F12</keycap></keycombo>."
+msgstr ""
+"Otevřete nabídku Mnote použitím kombinace kláves <keycombo><keycap>Alt</"
+"keycap><keycap>F12</keycap></keycombo>."
+
+#: C/mnote.xml:362(para)
+msgid ""
+"Use the <keycap>N</keycap> key to select the menu option "
+"<menuchoice><guimenuitem>Create New Note</guimenuitem></menuchoice>."
+msgstr ""
+"Použijte klávesu <keycap>N</keycap> k volbě položky nabídky "
+"<menuchoice><guimenuitem>Vytvořit novou poznámku</guimenuitem></menuchoice>."
+
+#: C/mnote.xml:371(title)
+msgid "Editing Notes"
+msgstr "Psaní poznámek"
+
+#: C/mnote.xml:373(para)
+msgid ""
+"After creating a new note, a new window will appear with the title "
+"<literal>New Note <replaceable>N</replaceable></literal>. At the top of the "
+"note is a toolbar with several buttons and text. Directly below this toolbar "
+"is the content area of the note. This is illustrated in <xref linkend=\"new-"
+"note\"/>."
+msgstr ""
+"Po vytvoření nové poznámky se objeví nové okno s názvem <literal>Nová "
+"poznámka <replaceable>N</replaceable></literal>. V horní části je panel "
+"nástrojů s několika tlačítky a texty. Přímo pod ním je prostor pro obsah "
+"poznámky. Vše ilustruje obrázek <xref linkend=\"new-note\"/>."
+
+#: C/mnote.xml:379(para)
+msgid ""
+"The note can be edited by clicking in the content area and using the "
+"keyboard to add and remove content. The first line is considered the title "
+"of the note. By default this is populated with the text <quote><literal>New "
+"Note <replaceable>N</replaceable></literal></quote>. The title is changed by "
+"clicking in the content area on the first line and using the keyboard to "
+"change the title. By default, focus is given to the content area upon "
+"creation of a new note, so you can immediately start editing the note "
+"without the need to click on the content area with the mouse."
+msgstr ""
+"Poznámku začnete upravovat tak, že kliknete do prostoru s obsahem a na "
+"klávesnicí píšete, případně mažete, její obsah. První řádek je považován za "
+"název poznámky. Na začátku se automaticky dosadí text <quote><literal>Nová "
+"poznámka <replaceable>N</replaceable></literal></quote>. Změnit jej můžete "
+"kliknutím na první řádek v prostoru s obsahem poznámky a jeho úpravou pomocí "
+"klávesnice. Hned po vytvoření nové poznámky se nastaví zaměření do prostoru "
+"s obsahem poznámky, takže můžete začít rovnou psát a nemusíte do prostoru s "
+"obsahem klikat myší."
+
+#: C/mnote.xml:389(para)
+msgid ""
+"Using the toolbar available on each note is discussed in <xref linkend="
+"\"working-with-notes\"/>."
+msgstr ""
+"Používání panelu nástrojů, který je k dispozici u každé poznámky, rozebírá "
+"<xref linkend=\"working-with-notes\"/>."
+
+#: C/mnote.xml:393(title)
+msgid "The default window for a New Note"
+msgstr "Výchozí okno pro novou poznámku"
+
+#: C/mnote.xml:404(title)
+msgid "Table of Contents"
+msgstr "Seznam poznámek"
+
+#: C/mnote.xml:406(para)
+msgid ""
+"To get an overview of all the notes managed by Mnote, select the "
+"<menuchoice><guimenuitem>Search All Notes</guimenuitem></menuchoice> menu "
+"item from the panel menu. By default, the <interface>Search All Notes</"
+"interface> dialog will display the notes in the order that they were last "
+"modified. Click the <guilabel>Note</guilabel> or <guilabel>Last Changed</"
+"guilabel> column headings to change the sort order. Click the column heading "
+"a second time to toggle between ascending and descending order."
+msgstr ""
+"Pokud chcete přehled všech poznámek spravovaných v aplikaci Mnote, zvolte v "
+"nabídce panelu položku <menuchoice><guimenuitem>Prohledat všechny poznámky</"
+"guimenuitem></menuchoice>. Normálně se v dialogovém okně <interface>Hledat "
+"ve všech poznámkách</interface> zobrazují poznámky seřazené podle toho, kdy "
+"byly naposledy upravené. Řazení můžete změnit kliknutím na záhlaví sloupců "
+"<guilabel>Poznámka</guilabel> nebo <guilabel>Naposledy změněno</guilabel>. "
+"Opakovaným kliknutím na stejné záhlaví měníte mezi řazením vzestupně a "
+"sestupně."
+
+#: C/mnote.xml:416(para)
+msgid ""
+"You can find specific notes by entering text into the search field in the "
+"<interface>Search All Notes</interface> dialog. The list of notes will "
+"automatically update to list only the notes which have matching text."
+msgstr ""
+"Konkrétní poznámku můžete najít zadáním textu do pole hledat v dialogovém "
+"okně <interface>Hledat ve všech poznámkách</interface>. Seznam s poznámkami "
+"se bude automaticky přizpůsobovat, aby obsahoval je poznámky odpovídající "
+"zadanému textu."
+
+#: C/mnote.xml:421(para)
+msgid ""
+"To open a note in the <interface>Search All Notes</interface> dialog, do one "
+"of the following:"
+msgstr ""
+"Poznámku můžete z dialogového okna <interface>Hledat ve všech poznámkách</"
+"interface> otevřít následovně:"
+
+#: C/mnote.xml:426(para)
+msgid "Double-click on a note."
+msgstr "Dvojitě na poznámku kliknout."
+
+#: C/mnote.xml:430(para)
+msgid ""
+"Highlight a note by selecting it and then select "
+"<menuchoice><guimenuitem>Open</guimenuitem></menuchoice> from the "
+"<guimenuitem>File</guimenuitem> menu."
+msgstr ""
+"Poznámku v seznamu vybrat a zvolit <menuchoice><guimenuitem>Otevřít</"
+"guimenuitem></menuchoice> v nabídce <guimenuitem>Soubor</guimenuitem>."
+
+#: C/mnote.xml:436(para)
+msgid ""
+"Right-click on a note and select <menuchoice><guimenuitem>Open</"
+"guimenuitem></menuchoice> from the context menu that appears."
+msgstr ""
+"Kliknout na poznámku pravým tlačítkem a v kontextové nabídce, která se "
+"objeví, zvolit <menuchoice><guimenuitem>Otevřít</guimenuitem></menuchoice>."
+
+#: C/mnote.xml:442(para)
+msgid ""
+"Highlight a note by selecting it and then press the key combination "
+"<keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo>."
+msgstr ""
+"Poznámku v seznamu vybrat a zmáčknout kombinaci kláves "
+"<keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo>."
+
+#: C/mnote.xml:456(title)
+msgid "Working With Notes"
+msgstr "Práce s poznámkami"
+
+#: C/mnote.xml:458(para)
+msgid ""
+"Notes are modified and edited through the main window for each note. The "
+"toolbar at the top of each note allows you to stylize the note and perform "
+"other note-related functions. We discuss the functions of each item on the "
+"toolbar in the following sections."
+msgstr ""
+"Poznámky se mění a upravují každá ve svém hlavním okně. Pomocí panelu "
+"nástrojů nad každou z poznámek můžete měnit styl poznámky a provádět další "
+"příslušející operace. V následujících kapitolách budou probrané jednotlivé "
+"položky panelu nástrojů."
+
+#: C/mnote.xml:464(title)
+msgid "Search"
+msgstr "Hledat"
+
+#: C/mnote.xml:466(para)
+msgid ""
+"Clicking the <guibutton>Search</guibutton> button will open the "
+"<interface>Search All Notes</interface> dialog described earlier (<xref "
+"linkend=\"search-all-notes\"/>.)"
+msgstr ""
+"Kliknutím na tlačítko <guibutton>Hledat</guibutton> se otevře dialogové okno "
+"<interface>Hledat ve všech poznámkách</interface>, které bylo popsáno již "
+"dříve (<xref linkend=\"search-all-notes\"/>.)"
+
+#: C/mnote.xml:472(title)
+msgid "Link"
+msgstr "Odkaz"
+
+#: C/mnote.xml:474(para)
+msgid ""
+"The <guibutton>Link</guibutton> button allows you to create a link to a new "
+"note from within the current note. For example, if your note contains the "
+"phrase <quote>FinalExam</quote>, you can select this text with the mouse and "
+"click the <guibutton>Link</guibutton> button to create a new note with the "
+"title <quote>FinalExam</quote>. A link will also be created in the current "
+"note that can be clicked to open the new <quote>FinalExam</quote> note."
+msgstr ""
+"Tlačítko <guibutton>Odkaz</guibutton> vám umožňuje vytvořit odkaz ze "
+"současné poznámky na novou poznámku. Například, když poznámka obsahuje frázi "
+"<quote>Závěrečná zkouška</quote>, můžete tento text pomocí myši vybrat a "
+"kliknout na tlačítko <guibutton>Odkaz</guibutton>, čímž se vytvoří nová "
+"poznámka s názvem <quote>Závěrečná zkouška</quote>. Zároveň se v současné "
+"poznámce vytvoří odkaz, který po kliknutí otevírá novou poznámku "
+"<quote>Závěrečná zkouška</quote>."
+
+#: C/mnote.xml:483(para)
+msgid ""
+"Changing the title of a note will update links present in other notes. This "
+"prevents broken links from occurring when a note is renamed."
+msgstr ""
+"Pokud změníte název poznámky, automaticky se aktualizují všechny odkazy na "
+"ni. To zajistí, že nevzniknou neplatné odkazy při přejmenovávání poznámek."
+
+#: C/mnote.xml:490(title)
+msgid "Text"
+msgstr "Text"
+
+#: C/mnote.xml:492(para)
+msgid ""
+"Formatting text within your notes can be done using the <guibutton>Text</"
+"guibutton> button. The <guibutton>Text</guibutton> button will display a "
+"menu with several options from which you can choose. Each menu item is "
+"explained next."
+msgstr ""
+"Text ve svých poznámkách můžete formátovat s použitím tlačítka "
+"<guibutton>Text</guibutton>. Tlačítko <guibutton>Text</guibutton> zobrazí "
+"nabídku s několika volbami na výběr. Zde je popis jednotlivých položek."
+
+#: C/mnote.xml:499(term)
+msgid "Undo"
+msgstr "Zpět"
+
+#: C/mnote.xml:502(para)
+msgid ""
+"Support for <quote>Undo</quote> is available in Mnote through this menu "
+"item. The Undo function allows you to revert previous changes made to your "
+"note during the current session. To undo your last change using the "
+"keyboard, use the standard keybinding, <keycombo><keycap>Ctrl</"
+"keycap><keycap>Z</keycap></keycombo>."
+msgstr ""
+"Funkce <quote>Zpět</quote> je v aplikaci Mnote dostupná přes tuto nabídku. "
+"Umožňuje vám vrátit předchozí změny provedené ve vaší poznámce v aktuálním "
+"sezení. Pokud chcete vrátit zpět poslední změny pomocí klávesnice, použijte "
+"standardní klávesovou zkratku <keycombo><keycap>Ctrl</keycap><keycap>Z</"
+"keycap></keycombo>."
+
+#: C/mnote.xml:515(term)
+msgid "Redo"
+msgstr "Znovu"
+
+#: C/mnote.xml:518(para)
+msgid ""
+"The <quote>Redo</quote> function is used to put back changes that were "
+"removed using the <quote>Undo</quote> feature. To redo your last change "
+"using the keyboard, use the standard keybinding, <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>."
+msgstr ""
+"Funkce <quote>Znovu</quote> se používá k vrácení změn, které jste zrušili "
+"pomocí funkce <quote>Zpět</quote>. Pokud chcete znovu vrátit změny pomocí "
+"klávesnice, použijte standardní klávesovou zkratku <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>."
+
+#: C/mnote.xml:532(term)
+msgid "Bold"
+msgstr "Tučné"
+
+#: C/mnote.xml:535(para)
+msgid ""
+"To make text within your note bold, first select the text you want to "
+"modify. Then select the <menuchoice><guimenuitem>Bold</guimenuitem></"
+"menuchoice> option from the <guibutton>Text</guibutton> menu. You may also "
+"use the keybinding <keycombo><keycap>Ctrl</keycap><keycap>B</keycap></"
+"keycombo> after selecting the text."
+msgstr ""
+"Pokud chcete mít některou část textu vaší poznámky tučně, tak ji nejprve "
+"vyberte. Potom v nabídce <guibutton>Text</guibutton> zvolte možnost "
+"<menuchoice><guimenuitem>Tučné</guimenuitem></menuchoice>. A nebo můžete po "
+"výběru textu použít klávesovou zkratku <keycombo><keycap>Ctrl</"
+"keycap><keycap>B</keycap></keycombo>."
+
+#: C/mnote.xml:548(term)
+msgid "Italic"
+msgstr "Kurzíva"
+
+#: C/mnote.xml:551(para)
+msgid ""
+"To make text within your note italic, first select the text you want to "
+"modify. Then select the <menuchoice><guimenuitem>Italic</guimenuitem></"
+"menuchoice> option from the <guibutton>Text</guibutton> menu. You may also "
+"use the keybinding <keycombo><keycap>Ctrl</keycap><keycap>I</keycap></"
+"keycombo> after selecting the text."
+msgstr ""
+"Pokud chcete mít některou část textu vaší poznámky v kurzívě, tak ji nejprve "
+"vyberte. Potom v nabídce <guibutton>Text</guibutton> zvolte možnost "
+"<menuchoice><guimenuitem>Kurzíva</guimenuitem></menuchoice>. A nebo můžete "
+"po výběru textu použít klávesovou zkratku <keycombo><keycap>Ctrl</"
+"keycap><keycap>I</keycap></keycombo>."
+
+#: C/mnote.xml:564(term)
+msgid "Strikeout"
+msgstr "Přeškrtnuté"
+
+#: C/mnote.xml:567(para)
+msgid ""
+"The strikeout style will put a line through the selected text. To add a "
+"strikeout, select the text and then select the "
+"<menuchoice><guimenuitem>Strikeout</guimenuitem></menuchoice> option from "
+"the <guibutton>Text</guibutton> menu. You may also use the keybinding "
+"<keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo> after selecting "
+"the text."
+msgstr ""
+"Přeškrtnutí umístí vodorovnou čáru přes vybraný text. Pokud chcete "
+"přeškrtnutí použít, tak vyberte text a v nabídce <guibutton>Text</guibutton> "
+"zvolte možnost <menuchoice><guimenuitem>Přeškrtnuté</guimenuitem></"
+"menuchoice>. A nebo můžete po výběru textu použít klávesovou zkratku "
+"<keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
+
+#: C/mnote.xml:581(term)
+msgid "Highlight"
+msgstr "Zvýraznění"
+
+#: C/mnote.xml:584(para)
+msgid ""
+"The highlight style will put a yellow background around the selected text. "
+"To add a highlight, select the text and then select the "
+"<menuchoice><guimenuitem>Highlight</guimenuitem></menuchoice> option from "
+"the <guibutton>Text</guibutton> menu. You may also use the keybinding "
+"<keycombo><keycap>Ctrl</keycap><keycap>H</keycap></keycombo> after selecting "
+"the text."
+msgstr ""
+"Zvýraznění umístí pod vybraný text žluté pozadí. Pokud chcete zvýraznění "
+"použít, tak vyberte text a v nabídce <guibutton>Text</guibutton> zvolte "
+"možnost <menuchoice><guimenuitem>Zvýraznění</guimenuitem></menuchoice>. A "
+"nebo můžete po výběru textu použít klávesovou zkratku "
+"<keycombo><keycap>Ctrl</keycap><keycap>H</keycap></keycombo>."
+
+#: C/mnote.xml:598(term) C/mnote.xml:1415(member) C/mnote.xml:1500(term)
+msgid "Fixed Width"
+msgstr "Pevná šířka"
+
+#: C/mnote.xml:601(para)
+msgid ""
+"The fixed width style allows text to use a fixed width font. To change "
+"existing text, first select the text you want to modify. Then select the "
+"<menuchoice><guimenuitem>Fixed Width</guimenuitem></menuchoice> option from "
+"the <guibutton>Text</guibutton> menu. You can also select the "
+"<menuchoice><guimenuitem>Fixed Width</guimenuitem></menuchoice> option from "
+"the <guibutton>Text</guibutton> before you start typing to have the text you "
+"type be in a fixed width style."
+msgstr ""
+"Styl pevná šířka nastavuje u textu písmo s pevnou šířku. Abyste ho mohli "
+"nastavit, musíte nejdříve vybrat text, u které ho to chcete provést. Potom "
+"použijte volbu <menuchoice><guimenuitem>Pevná šířka</guimenuitem></"
+"menuchoice> v nabídce <guibutton>Text</guibutton>. Můžete také vybrat volbu "
+"<menuchoice><guimenuitem>Pevná šířka</guimenuitem></menuchoice> v nabídce "
+"<guibutton>Text</guibutton> dříve, než začnete psát a psaný text potom bude "
+"mít písmo pevné šířky."
+
+#: C/mnote.xml:612(para)
+msgid ""
+"The <menuchoice><guimenuitem>Fixed Width</guimenuitem></menuchoice> option "
+"is a feature provided by the Fixed Width Add-in. For more information on add-"
+"ins, see <xref linkend=\"plugins\"/>."
+msgstr ""
+"Volbu <menuchoice><guimenuitem>Pevná šířka</guimenuitem></menuchoice> "
+"přidává rozšíření Pevná šířka. Více informací o rozšířeních poskytuje "
+"kapitola <xref linkend=\"plugins\"/>."
+
+#: C/mnote.xml:621(term)
+msgid "Font size"
+msgstr "Velikost písma"
+
+#: C/mnote.xml:626(guilabel) C/mnote.xml:636(guilabel)
+msgid "Small"
+msgstr "Malé"
+
+#: C/mnote.xml:628(guilabel) C/mnote.xml:638(guilabel)
+msgid "Normal"
+msgstr "Normální"
+
+#: C/mnote.xml:630(guilabel) C/mnote.xml:640(guilabel)
+msgid "Large"
+msgstr "Velké"
+
+#: C/mnote.xml:632(guilabel) C/mnote.xml:642(guilabel)
+msgid "Huge"
+msgstr "Obrovské"
+
+#: C/mnote.xml:624(para)
+msgid ""
+"There are actually four options in this part of the menu: <placeholder-1/>. "
+"Each one of these options represents a font size to use for the selected "
+"text in the note. To modify the font size, select the text and then select "
+"one of <placeholder-2/> options from the <guibutton>Text</guibutton> menu."
+msgstr ""
+"V současnosti jsou v této části nabídky k dispozici čtyři volby: "
+"<placeholder-1/>. Každá z těchto voleb představuje velikost písma použitou "
+"na vybraný text poznámky. Pokud chcete velikost písma změnit, vyberte text a "
+"zvolte jednu z možností <placeholder-2/> v nabídce <guibutton>Text</"
+"guibutton>."
+
+#: C/mnote.xml:649(term)
+msgid "Bullets"
+msgstr "Odrážky"
+
+#: C/mnote.xml:657(guilabel)
+msgid "Increase Indent"
+msgstr "Zvětšit odsazení"
+
+#: C/mnote.xml:659(guilabel)
+msgid "Decrease Indent"
+msgstr "Zmenšit odsazení"
+
+#: C/mnote.xml:652(para)
+msgid ""
+"Select the <menuchoice><guimenuitem>Bullets</guimenuitem></menuchoice> "
+"option from the <guibutton>Text</guibutton> menu to begin or end a bulleted "
+"list. If the cursor is inside a bulleted list, the <placeholder-1/> options "
+"will be enabled."
+msgstr ""
+"Volbu <menuchoice><guimenuitem>Odrážky</guimenuitem></menuchoice> v nabídce "
+"<guibutton>Text</guibutton> vyberte pokud chcete začít nebo ukončit bodový "
+"seznam s odrážkami. Pokud se kurzor nachází uvnitř bodového seznamu, jsou "
+"dostupné volby <placeholder-1/>."
+
+#: C/mnote.xml:662(para)
+msgid ""
+"With the cursor on a bulleted list line, select the "
+"<menuchoice><guimenuitem>Increase Indent</guimenuitem></menuchoice> option "
+"to shift the current line to the right or the "
+"<menuchoice><guimenuitem>Decrease Indent</guimenuitem></menuchoice> option "
+"to shift the current line to the left."
+msgstr ""
+"S kurzorem umístěným na řádku s odrážkou zvolte "
+"<menuchoice><guimenuitem>Zvětšit odsazení</guimenuitem></menuchoice> a "
+"aktuální řádek se posune doprava, nebo <menuchoice><guimenuitem>Zmenšit "
+"odsazení</guimenuitem></menuchoice> a aktuální řádek se odsune doleva."
+
+#: C/mnote.xml:671(para)
+msgid "For more information on bullets, see <xref linkend=\"bullets\"/>."
+msgstr ""
+"Více informací o odrážkách podává kapitola <xref linkend=\"bullets\"/>."
+
+#: C/mnote.xml:677(term)
+msgid "Find in This Note"
+msgstr "Najít v této poznámce"
+
+#: C/mnote.xml:680(para)
+msgid ""
+"Use this to search for text within the current note. A small find bar will "
+"open up at the bottom of the note. To open the find bar using the keyboard, "
+"use the standard keybinding, <keycombo><keycap>Ctrl</keycap><keycap>F</"
+"keycap></keycombo>."
+msgstr ""
+"Toto použijte, pokud chcete hledat v textu současné poznámky. Ve spodní "
+"části poznámky se otevře malý vyhledávací panel. Můžete jej otevřít i pomocí "
+"klávesnice standardní klávesovou zkratkou <keycombo><keycap>Ctrl</"
+"keycap><keycap>F</keycap></keycombo>."
+
+#: C/mnote.xml:688(para)
+msgid ""
+"Enter text to find. After entering text, the matches will be highlighted. "
+"Click <guibutton>Find Next</guibutton> to highlight the next match and place "
+"the cursor there. Click <guibutton>Previous</guibutton> to move to the "
+"previous match."
+msgstr ""
+"Zadejte text, který se má najít. Během psaní se bude odpovídající část "
+"poznámky zvýrazňovat. Kliknutím na <guibutton>Hledat následující</guibutton> "
+"zvýrazníte další odpovídající text. Kliknutím na <guibutton>Předchozí</"
+"guibutton> se přesunete na předchozí odpovídající text."
+
+#: C/mnote.xml:694(para)
+msgid ""
+"To close the find bar, click <guibutton>X</guibutton> (Close Button) on the "
+"far left or press the <keycap>Escape</keycap> key."
+msgstr ""
+"Panel hledání zavřete kliknutím na <guibutton>X</guibutton> (tlačítko "
+"Zavřít) úplně vlevo nebo stiskem klávesy <keycap>Escape</keycap>."
+
+#: C/mnote.xml:703(title)
+msgid "Tools (gear icon)"
+msgstr "Nástroje"
+
+#: C/mnote.xml:705(para)
+msgid ""
+"The <guibutton>Tools</guibutton> button is represented by the <inlinegraphic "
+"fileref=\"figures/mnote-tools.png\"/> icon. When you click the "
+"<guiicon>Tools</guiicon> icon on the toolbar present on your note, a menu "
+"will appear with the following items:"
+msgstr ""
+"Tlačítko <guibutton>Nástroje</guibutton> je prezentováno ikonou "
+"<inlinegraphic fileref=\"figures/mnote-tools.png\"/>. Když na ikonu "
+"<guiicon>Nástroje</guiicon> kliknete, objeví se nabídka s následujícími "
+"položkami:"
+
+#: C/mnote.xml:712(term)
+msgid "Synchronize Notes"
+msgstr "Synchronizovat poznámky"
+
+#: C/mnote.xml:715(para)
+msgid ""
+"Select this option to synchronize your notes with a central server. For more "
+"information on note synchronization, see <xref linkend=\"synchronization\"/>."
+msgstr ""
+"Výběr této volby zajistí synchronizaci vašich poznámek s centrálním "
+"serverem. Více informací o synchronizaci poznámek poskytuje kapitola <xref "
+"linkend=\"synchronization\"/>."
+
+#: C/mnote.xml:721(term)
+msgid "What links here?"
+msgstr "Co sem odkazuje?"
+
+#: C/mnote.xml:724(para)
+msgid ""
+"This option allows you to quickly see what other notes link to the current "
+"note. This feature is provided by the Backlinks Add-in. For more information "
+"on add-ins, see <xref linkend=\"plugins\"/>."
+msgstr ""
+"Díky této volbě můžete rychle zjistit, které další poznámky se odkazují na "
+"aktuální poznámku. Tuto funkci zajišťuje rozšíření Zpětné odkazy. Více "
+"informací o rozšířeních poskytuje kapitola <xref linkend=\"plugins\"/>."
+
+#: C/mnote.xml:732(term) C/mnote.xml:1413(member) C/mnote.xml:1480(term)
+msgid "Export to HTML"
+msgstr "Exportovat do HTML"
+
+#: C/mnote.xml:735(para)
+msgid ""
+"You can create an <acronym>HTML</acronym> (Hypertext Markup Language) "
+"document from one or more notes by selecting this option. For more "
+"information, please see <xref linkend=\"plugins\"/>."
+msgstr ""
+"Pomocí této volby můžete z jedné nebo více poznámek vytvořit dokument "
+"<acronym>HTML</acronym> (Hypertext Markup Language). Více informací uvádí "
+"kapitola <xref linkend=\"plugins\"/>."
+
+#: C/mnote.xml:743(term)
+msgid "Print"
+msgstr "Vytisknout"
+
+#: C/mnote.xml:746(para) C/mnote.xml:1539(para)
+msgid ""
+"Select this option to print the current note. You will be presented with the "
+"standard MATE print dialog."
+msgstr ""
+"Touto volbou vytisknete aktuální poznámku. Před tiskem se zobrazí standardní "
+"dialogové okno MATE pro tisk."
+
+#: C/mnote.xml:753(para)
+msgid ""
+"Depending on the add-ins that you have installed for Mnote, you may have "
+"more or less items available in the <guimenu>Tools</guimenu> menu."
+msgstr ""
+"V závislosti na tom, která rozšíření máte v aplikaci Mnote nainstalovaná, "
+"můžete mít v nabídce <guimenu>Nástroje</guimenu> položek více a nebo také "
+"méně."
+
+#: C/mnote.xml:760(title)
+msgid "Delete"
+msgstr "Smazat"
+
+#: C/mnote.xml:762(para)
+msgid ""
+"The <guibutton>Delete</guibutton> button will pop up a dialog box asking if "
+"you want to permanently delete the note and its contents. Click the "
+"<guibutton>Delete</guibutton> button to discard the note permanently, or "
+"<guibutton>Cancel</guibutton> to abort the process. Links to this note from "
+"other notes will still exist, but will re-create the note upon activation."
+msgstr ""
+"Tlačítko <guibutton>Smazat</guibutton> vyvolá dialogové okno s dotazem, "
+"jestli chcete poznámku s jejím obsahem trvale smazat. Klikněte buď na "
+"tlačítko <guibutton>Smazat</guibutton>, a tím poznámku trvale vymažte, nebo "
+"na <guibutton>Zrušit</guibutton>, a tím operaci zrušíte. Odkazy na smazanou "
+"poznámku budou existovat i nadále a jejich použitím znovu vytvoříte poznámku "
+"stejného názvu."
+
+#: C/mnote.xml:774(title)
+msgid "Panel Menu"
+msgstr "Nabídka panelu"
+
+#: C/mnote.xml:776(para)
+msgid ""
+"Mnote keeps the most recently used notes quickly available to you in a menu "
+"that appears when you click on the Mnote Icon in the MATE Panel."
+msgstr ""
+"Aplikace Mnote udržuje většinu nedávno použitých poznámek rychle přístupných "
+"z nabídky, která se objeví po kliknutí na ikonu Mnote na panelu MATE."
+
+#: C/mnote.xml:781(title)
+msgid "Note Pinning"
+msgstr "Přišpendlení poznámky"
+
+#: C/mnote.xml:783(para)
+msgid ""
+"To force a note to always be in the panel menu regardless of when you last "
+"accessed it, click the thumbtack icon to \"pin\" it to the menu. Notes that "
+"are pinned to the panel menu will have a thumbtack icons that look like "
+"this: <inlinegraphic fileref=\"figures/mnote-pindown.png\"/>. Notes that are "
+"not pinned to the panel menu will have thumbtack icons that look like this: "
+"<inlinegraphic fileref=\"figures/mnote-pinup.png\"/>."
+msgstr ""
+"Pokud chcete, aby se poznámka v nabídce panelu nacházela trvale a nejen, "
+"když ji nedávno použijete, klikněte na ikonu připínáčku a tím ji do nabídky "
+"„přišpendlíte“. Všimněte si, že poznámky, které jsou přišpendlené, mají "
+"takovouto ikonu rýsováčku <inlinegraphic fileref=\"figures/mnote-pindown.png"
+"\"/>, zatímco ty nepřišpendlené takovouto <inlinegraphic fileref=\"figures/"
+"mnote-pinup.png\"/>."
+
+#: C/mnote.xml:792(title)
+msgid "Mnote Panel Menu"
+msgstr "Nabídka panelu Mnote"
+
+#: C/mnote.xml:809(title)
+msgid "Begin a bulleted list"
+msgstr "Započetí bodového seznamu"
+
+#: C/mnote.xml:811(para)
+msgid "You may begin a bulleted list by using one of the following methods:"
+msgstr "Bodový seznam s odrážkami můžete začít vytvářet následujícími způsoby:"
+
+#: C/mnote.xml:816(para) C/mnote.xml:837(para)
+msgid ""
+"Select <menuchoice><guimenuitem>Bullets</guimenuitem></menuchoice> from the "
+"<guibutton>Text</guibutton> menu."
+msgstr ""
+"Zvolit <menuchoice><guimenuitem>Odrážky</guimenuitem></menuchoice> v nabídce "
+"<guibutton>Text</guibutton>."
+
+#: C/mnote.xml:823(para)
+msgid ""
+"Begin a line with a single dash character (-), type some text immediately "
+"following the dash, and press <keycap>Enter</keycap>."
+msgstr ""
+"Začít řádek jednou pomlčkou (-), bezprostředně za ní pokračovat vlastním "
+"textem a nakonec stisknout <keycap>Enter</keycap>."
+
+#: C/mnote.xml:831(title)
+msgid "End a bulleted list"
+msgstr "Ukončení bodového seznamu"
+
+#: C/mnote.xml:833(para)
+msgid "End a bulleted list by doing one of the following:"
+msgstr ""
+"Ukončit vytváření bodového seznamu s odrážkami můžete následujícími způsoby:"
+
+#: C/mnote.xml:844(para)
+msgid "Press <keycap>Enter</keycap> on a blank bulleted line."
+msgstr "Zmáčknout <keycap>Enter</keycap> na prázdném řádku bodového seznamu."
+
+#: C/mnote.xml:848(para)
+msgid ""
+"Select <menuchoice><guimenuitem>Decrease Indent</guimenuitem></menuchoice> "
+"from the <guibutton>Text</guibutton> menu in succession until the current "
+"line is no longer part of the bulleted list."
+msgstr ""
+"Volit <menuchoice><guimenuitem>Zmenšit odsazení</guimenuitem></menuchoice> z "
+"nabídky <guibutton>Text</guibutton> tak dlouho, dokud aktuální řádek "
+"nepřestane být součástí bodového seznamu."
+
+#: C/mnote.xml:856(para)
+msgid ""
+"Using the key combination <keycombo><keycap>Shift</keycap><keycap>Tab</"
+"keycap></keycombo> in succession until the current line is no longer part of "
+"the bulleted list."
+msgstr ""
+"Používat kombinaci kláves <keycombo><keycap>Shift</keycap><keycap>Tab</"
+"keycap></keycombo> tak dlouho, dokud aktuální řádek nepřestane být součástí "
+"bodového seznamu."
+
+#: C/mnote.xml:867(title)
+msgid "Increase Indentation"
+msgstr "Zvětšení odsazení"
+
+#: C/mnote.xml:869(para)
+msgid "To increase the line indentation in a bulleted list with the mouse:"
+msgstr ""
+"Pokud chcete zvětšit odsazení řádku s odrážkou v bodovém seznamu pomocí myši:"
+
+#: C/mnote.xml:874(para)
+msgid ""
+"Select <menuchoice><guimenuitem>Increase Indent</guimenuitem></menuchoice> "
+"from the <guibutton>Text</guibutton> menu."
+msgstr ""
+"Zvolte <menuchoice><guimenuitem>Zvětšit odsazení</guimenuitem></menuchoice> "
+"v nabídce <guibutton>Text</guibutton>."
+
+#: C/mnote.xml:881(para)
+msgid "To increase the line indentation in a bulleted list with the keyboard:"
+msgstr ""
+"Pokud chcete zvětšit odsazení řádku s odrážkou v bodovém seznamu pomocí "
+"klávesnice:"
+
+#: C/mnote.xml:886(para)
+msgid "Press the <keycap>Tab</keycap> key."
+msgstr "Zmáčkněte klávesu <keycap>Tab</keycap>."
+
+#: C/mnote.xml:892(title)
+msgid "Decrease Indentation"
+msgstr "Zmenšení odsazení"
+
+#: C/mnote.xml:894(para)
+msgid "To decrease the line indentation in a bulleted list with the mouse:"
+msgstr ""
+"Pokud chcete zmenšit odsazení řádku s odrážkou v bodovém seznamu pomocí myši:"
+
+#: C/mnote.xml:899(para)
+msgid ""
+"Select <menuchoice><guimenuitem>Decrease Indent</guimenuitem></menuchoice> "
+"from the <guibutton>Text</guibutton> menu."
+msgstr ""
+"Zvolte <menuchoice><guimenuitem>Zmenšit odsazení</guimenuitem></menuchoice> "
+"v nabídce <guibutton>Text</guibutton>."
+
+#: C/mnote.xml:906(para)
+msgid "To decrease the line indentation in a bulleted list with the keyboard:"
+msgstr ""
+"Pokud chcete zmenšit odsazení řádku s odrážkou v bodovém seznamu pomocí "
+"klávesnice:"
+
+#: C/mnote.xml:911(para)
+msgid ""
+"Press the key combination <keycombo><keycap>Shift</keycap><keycap>Tab</"
+"keycap></keycombo>."
+msgstr ""
+"Zmáčkněte kombinaci kláves <keycombo><keycap>Shift</keycap><keycap>Tab</"
+"keycap></keycombo>."
+
+#: C/mnote.xml:924(title)
+msgid "Working with Notebooks"
+msgstr "Práce se sešity"
+
+#: C/mnote.xml:926(para)
+msgid ""
+"Notebooks allow you to group related notes together. You can add a note to a "
+"notebook in the Search All Notes window or directly inside of a Note."
+msgstr ""
+"Sešity vám umožňují seskupovat poznámky, které patří k sobě. Poznámku můžete "
+"přidat do sešitu v okně Hledat ve všech poznámkách nebo přímo v okně s "
+"poznámkou."
+
+#: C/mnote.xml:930(title)
+msgid "Creating Notebooks"
+msgstr "Vytváření sešitů"
+
+#: C/mnote.xml:932(para)
+msgid "You can create new notebooks using one of the following methods:"
+msgstr "Nový sešit můžete vytvořit pomocí následujícího postupu:"
+
+#: C/mnote.xml:936(para)
+msgid ""
+"Click on the Mnote note icon present in the MATE Panel. A menu will appear"
+msgstr "Klikněte na ikonu Mnote zobrazenou na panelu MATE. Objeví se nabídka."
+
+#: C/mnote.xml:940(para)
+msgid ""
+"Select <menuchoice><guimenuitem>Notebooks</guimenuitem><guimenuitem>New "
+"Notebook</guimenuitem></menuchoice>."
+msgstr ""
+"Zvolte <menuchoice><guimenuitem>Sešity</guimenuitem><guimenuitem>Nový sešit</"
+"guimenuitem></menuchoice>."
+
+#: C/mnote.xml:943(para) C/mnote.xml:972(para) C/mnote.xml:983(para)
+msgid "Enter a name for the new notebook."
+msgstr "Zadejte název pro nový sešit."
+
+#: C/mnote.xml:948(title)
+msgid "Create a new notebook from the Mnote note icon on the MATE Panel"
+msgstr "Vytvoření nového sešitu přes ikonu Mnote na panelu MATE"
+
+#: C/mnote.xml:957(para)
+msgid "To create a new notebook from the Search All Notes dialog:"
+msgstr ""
+"Postup vytvoření nového sešitu z dialogového okna Hledat ve všech poznámkách:"
+
+#: C/mnote.xml:961(para) C/mnote.xml:1010(para) C/mnote.xml:1047(para)
+#: C/mnote.xml:1091(para)
+msgid ""
+"Open <menuchoice><guimenuitem>Search All Notes</guimenuitem></menuchoice> by "
+"choosing it from the Mnote icon on the MATE Panel or click on Search from "
+"an open note."
+msgstr ""
+"Otevřete <menuchoice><guimenuitem>Hledat ve všech poznámkách</guimenuitem></"
+"menuchoice> buď v nabídce z ikony Mnote na panelu MATE a nebo kliknutím na "
+"tlačítko Hledat v otevřené poznámce."
+
+#: C/mnote.xml:967(para)
+msgid ""
+"Using your mouse, right click in the left hand box and choose "
+"<menuchoice><guimenuitem>New Notebook</guimenuitem></menuchoice>."
+msgstr ""
+"Pomocí myši klikněte pravým tlačítkem do levé části a zvolte "
+"<menuchoice><guimenuitem>Nový sešit</guimenuitem></menuchoice>."
+
+#: C/mnote.xml:975(para)
+msgid "or"
+msgstr "nebo"
+
+#: C/mnote.xml:978(para)
+msgid ""
+"With <guilabel>Search All Notes</guilabel> open, choose "
+"<menuchoice><guimenuitem>File</guimenuitem><guimenuitem>Notebooks</"
+"guimenuitem><guimenuitem>New Notebook</guimenuitem></menuchoice>."
+msgstr ""
+"V otevřeném dialogovém okně <guilabel>Hledat ve všech poznámkách</guilabel> "
+"zvolte <menuchoice><guimenuitem>Soubor</guimenuitem><guimenuitem>Sešity</"
+"guimenuitem><guimenuitem>Nový sešit</guimenuitem></menuchoice>."
+
+#: C/mnote.xml:989(title)
+msgid "Create a new notebook from Search All Notes"
+msgstr "Vytvoření nového sešitu z dialogu Hledat ve všech poznámkách"
+
+#: C/mnote.xml:1001(title)
+msgid "Adding Notes to a Notebook"
+msgstr "Přidávání poznámek do sešitu"
+
+#: C/mnote.xml:1003(para)
+msgid ""
+"To add notes to a notebook, you can add a note from the <guilabel>Search All "
+"Notes</guilabel> dialog or directly within a note."
+msgstr ""
+"Pokud chcete do sešitu přidat poznámku, můžete to udělat v dialogovém okně "
+"<guilabel>Hledat ve všech poznámkách</guilabel> nebo přímo v poznámce."
+
+#: C/mnote.xml:1006(para)
+msgid "To move an existing note from the Search All Notes dialog:"
+msgstr ""
+"Přesun existující poznámky v dialogovém okně Hledat ve všech poznámkách:"
+
+#: C/mnote.xml:1015(para)
+msgid "Using your mouse, drag the note(s) onto a notebook on the left."
+msgstr ""
+"Pomocí myši přesuňte poznámku, případně několik poznámek, do sešitu na levé "
+"straně."
+
+#: C/mnote.xml:1020(para)
+msgid ""
+"As you type a note, you can add the note directly to an existing notebook "
+"using the <guimenu>Notebook</guimenu> button. The <guimenu>Notebook</"
+"guimenu> button is represented by the <inlinegraphic fileref=\"figures/"
+"notebook-icon.png\"/> icon."
+msgstr ""
+"Když poznámku píšete, můžete ji přímo přidat do existujícího sešitu pomocí "
+"tlačítka <guimenu>Sešit</guimenu>. Tlačítko <guimenu>Sešit</guimenu> je na "
+"panelu nástrojů symbolizováno ikonou <inlinegraphic fileref=\"figures/"
+"notebook-icon.png\"/>."
+
+#: C/mnote.xml:1026(title)
+msgid "Adding a note to a notebook"
+msgstr "Přidání poznámky do sešitu"
+
+#: C/mnote.xml:1039(title)
+msgid "Creating Notebook Templates"
+msgstr "Vytváření šablon sešitů"
+
+#: C/mnote.xml:1041(para)
+msgid ""
+"After you create a notebook, you can create a template for each new note "
+"that you create in a specific notebook."
+msgstr ""
+"Když máte vytvořený sešit, můžete si také vytvořit šablonu pro poznámky, "
+"které budete v tomto konkrétním sešitě vytvářet."
+
+#: C/mnote.xml:1052(para)
+msgid ""
+"Using your mouse, right click on a Notebook that you have created and choose "
+"<menuchoice><guimenuitem>Open Template Note</guimenuitem></menuchoice>."
+msgstr ""
+"Použijte myš a klikněte pravým tlačítkem na sešit, pro který chcete šablonu "
+"vytvořit a vyberte <menuchoice><guimenuitem>Otevřít šablonu</guimenuitem></"
+"menuchoice>."
+
+#: C/mnote.xml:1057(para)
+msgid ""
+"This will open a new note that will be used as the template. Any text typed "
+"in this note will appear in all notes created in this Notebook. Create a new "
+"note in the notebook by using your mouse, right click on a notebook and "
+"select <menuchoice><guimenuitem>New Note</guimenuitem></menuchoice>."
+msgstr ""
+"Tím se otevře nová poznámka, která se bude používat jako šablona. Jakýkoliv "
+"text zapsaný do této poznámky se objeví ve všech poznámkách nově vytvořených "
+"v tomto sešitu. Novou poznámku v sešitu vytvoříte pomocí myši tak, že "
+"kliknete na sešit pravým tlačítkem a zvolíte <menuchoice><guimenuitem>Nová "
+"poznámka</guimenuitem></menuchoice>."
+
+#: C/mnote.xml:1066(title)
+msgid "Creating a Notebook Template"
+msgstr "Vytváření šablony sešitu"
+
+#: C/mnote.xml:1079(title) C/mnote.xml:1102(title)
+msgid "Deleting a Notebook"
+msgstr "Mazání sešitu"
+
+#: C/mnote.xml:1080(para)
+msgid ""
+"Deleting a notebook will not delete any of the notes which are currently "
+"inside the notebook. After deleting a notebook, the notes will not be "
+"associated with any notebook and can be seen by highlighting "
+"<menuchoice><guimenuitem>Unfiled Notes</guimenuitem></menuchoice> in the "
+"<menuchoice><guimenuitem>Search All Notes</guimenuitem></menuchoice> window."
+msgstr ""
+"Smazáním sešitu rozhodně nesmažete poznámky, které v něm jsou zrovna "
+"zařazené. Po smazání sešitu můžete k poznámkám, které nebudou zařazené do "
+"žádného sešitu, přistupovat vybráním <menuchoice><guimenuitem>Nezařazené "
+"poznámky</guimenuitem></menuchoice> v okně <menuchoice><guimenuitem>Hledat "
+"ve všech poznámkách</guimenuitem></menuchoice>."
+
+#: C/mnote.xml:1086(para)
+msgid "You can delete a notebook you have created by one of two methods:"
+msgstr "Sešity můžete mazat těmito dvěma způsoby:"
+
+#: C/mnote.xml:1088(para)
+msgid "To delete a notebook using your mouse:"
+msgstr "Mazání sešitu s použitím myši:"
+
+#: C/mnote.xml:1096(para)
+msgid ""
+"Using your mouse, right click on a Notebook that you have created and choose "
+"<menuchoice><guimenuitem>Delete Notebook</guimenuitem></menuchoice>."
+msgstr ""
+"Pravým tlačítkem myši klikněte na sešit a zvolte "
+"<menuchoice><guimenuitem>Odstranit sešit</guimenuitem></menuchoice>."
+
+#: C/mnote.xml:1111(para)
+msgid ""
+"To delete a Notebook from the <menuchoice><guimenuitem>Search All Notes</"
+"guimenuitem></menuchoice> menu, open <menuchoice><guimenuitem>Search All "
+"Notes</guimenuitem></menuchoice> by choosing it from the Mnote icon on the "
+"MATE Panel."
+msgstr ""
+"Pokud chcete smazat sešit přes nabídku <menuchoice><guimenuitem>Hledat ve "
+"všech poznámkách</guimenuitem></menuchoice>, otevřete dialogové okno "
+"<menuchoice><guimenuitem>Hledat ve všech poznámkách</guimenuitem></"
+"menuchoice> přes ikonu Mnote na panelu MATE."
+
+#: C/mnote.xml:1117(para)
+msgid "Using your mouse, left click on the Notebook you want to delete."
+msgstr "Kliknutím levým tlačítkem myši vyberte sešit, který chcete smazat."
+
+#: C/mnote.xml:1121(para)
+msgid ""
+"From the menu, choose <menuchoice><guimenuitem>Edit</"
+"guimenuitem><guimenuitem>Delete Notebook</guimenuitem></menuchoice>"
+msgstr ""
+"V nabídce zvolte <menuchoice><guimenuitem>Úpravy</"
+"guimenuitem><guimenuitem>Odstranit sešit</guimenuitem></menuchoice>."
+
+#: C/mnote.xml:1135(title)
+msgid "Note Synchronization"
+msgstr "Synchronizace poznámek"
+
+#: C/mnote.xml:1137(para)
+msgid ""
+"Mnote can now keep your notes synchronized between multiple computers by "
+"relying on a central server."
+msgstr ""
+"Aplikace Mnote umí udržovat vaše poznámky synchronizované mezi různými "
+"počítači za pomoci centrálního serveru."
+
+#: C/mnote.xml:1141(title)
+msgid "Configure note synchronization"
+msgstr "Nastavení synchronizace poznámek"
+
+#: C/mnote.xml:1143(para)
+msgid ""
+"You can configure your note synchronization preferences in the "
+"<guilabel>Synchronization</guilabel> tab of the <interface>Mnote "
+"Preferences</interface> dialog. Default conflict handling behavior can be "
+"configured by selecting the <guibutton>Advanced...</guibutton> button."
+msgstr ""
+"Předvolby synchronizace svých poznámek si můžete nastavit na kartě "
+"<guilabel>Synchronizace</guilabel> v dialogovém okně <interface>Předvolby "
+"Mnote</interface>. Tlačítkem <guibutton>Pokročilé…</guibutton> pak můžete "
+"nastavit, co se má dělat v případě konfliktu mezi poznámkami."
+
+#: C/mnote.xml:1149(title)
+msgid "Mnote Synchronization Preferences"
+msgstr "Předvolby synchronizace v aplikaci Mnote"
+
+#: C/mnote.xml:1159(title)
+msgid "Configure note synchronization service (WebDAV)"
+msgstr "Nastavení služby synchronizace poznámek (WebDAV)"
+
+#: C/mnote.xml:1161(para)
+msgid ""
+"In order to synchronize your notes with a WebDAV server, you will need the "
+"wdfs FUSE file system installed. Follow the documentation for your operating "
+"system to set up FUSE for your user. You will also need the MATE Keyring "
+"installed."
+msgstr ""
+"Abyste mohli synchronizovat své poznámky se serverem WebDAV, musíte mít "
+"nainstalovaný souborový systém wdfs FUSE. Jak nainstalovat FUSE najdete v "
+"dokumentaci ke svému operačnímu systému. Dále ještě musíte mít "
+"nainstalovanou Klíčenku MATE."
+
+#: C/mnote.xml:1165(para)
+msgid ""
+"Choose <guimenuitem>WebDAV</guimenuitem> from the <guilabel>Service</"
+"guilabel> drop-down list. Fill in the connection information for your "
+"server, and then select the <guibutton>Save</guibutton> button. You are now "
+"ready to synchronize your notes."
+msgstr ""
+"V rozbalovacím seznamu <guilabel>Služba</guilabel> vyberte "
+"<guimenuitem>WebDAV</guimenuitem>. Vyplňte připojovací údaje pro svůj server "
+"a zmáčkněte tlačítko <guibutton>Uložit</guibutton>. Tím jste připraveni na "
+"synchronizaci svých poznámek."
+
+#: C/mnote.xml:1171(title)
+msgid "Configure note synchronization service (SSH)"
+msgstr "Nastavení služby synchronizace poznámek (SSH)"
+
+#: C/mnote.xml:1173(para)
+msgid ""
+"In order to synchronize your notes with an SSH server, you will need the "
+"sshfs FUSE file system installed. Follow the documentation for your "
+"operating system to set up FUSE for your user. You will also need an SSH key "
+"for your SSH server account, which should be added to a running SSH daemon. "
+"This can be done using the MATE <application>Seahorse</application> "
+"application."
+msgstr ""
+"Abyste mohli synchronizovat své poznámky se serverem SSH, musíte mít "
+"nainstalovaný souborový systém sshfs FUSE. Jak nainstalovat FUSE se dozvíte "
+"z dokumentace ke svému operačnímu systému. Budete také potřebovat klíč SSH "
+"ke svému účtu na serveru SSH, který by se měl přidat do běžícího démona SSH. "
+"To lze udělat pomocí aplikace <application>Seahorse</application>, která je "
+"součástí MATE."
+
+#: C/mnote.xml:1179(para)
+msgid ""
+"Choose <guimenuitem>SSH</guimenuitem> from the <guilabel>Service</guilabel> "
+"drop-down list. Fill in the connection information for your server, and then "
+"select the <guibutton>Save</guibutton> button. You are now ready to "
+"synchronize your notes."
+msgstr ""
+"V rozbalovacím seznamu <guilabel>Služba</guilabel> vyberte <guimenuitem>SSH</"
+"guimenuitem>. Vyplňte připojovací údaje pro svůj server a zmáčkněte tlačítko "
+"<guibutton>Uložit</guibutton>. Tím jste připravení na synchronizaci svých "
+"poznámek."
+
+#: C/mnote.xml:1185(title)
+msgid "Configure note synchronization service (Local Folder)"
+msgstr "Nastavení služby synchronizace poznámek (Místní složka)"
+
+#: C/mnote.xml:1187(para)
+msgid ""
+"You may want to synchronize your notes to a local folder if that folder is "
+"available to your other systems, or if that folder represents a local mount "
+"of a remote server."
+msgstr ""
+"Můžete chtít synchronizovat své poznámky do místní složky v případech, kdy "
+"je tato složka dostupná i pro jiné systémy nebo představuje místní připojení "
+"vzdáleného serveru."
+
+#: C/mnote.xml:1191(para)
+msgid ""
+"Choose <guimenuitem>Local Folder</guimenuitem> from the <guilabel>Service</"
+"guilabel> drop-down list. Choose the desired synchronization "
+"<guilabel>Folder Path</guilabel>, and then select the <guibutton>Save</"
+"guibutton> button. You are now ready to synchronize your notes."
+msgstr ""
+"Ve rozbalovacím seznamu <guilabel>Služba</guilabel> zvolte "
+"<guimenuitem>Místní složka</guimenuitem>. Vyberte požadované "
+"<guilabel>Umístění složky</guilabel> pro synchronizaci a zmáčkněte tlačítko "
+"<guibutton>Uložit</guibutton>. Tím je vše připraveno na synchronizaci vašich "
+"poznámek."
+
+#: C/mnote.xml:1198(title)
+msgid "Synchronize your notes"
+msgstr "Synchronizování vašich poznámek"
+
+#: C/mnote.xml:1200(para)
+msgid ""
+"You can synchronize your notes at any time by selecting "
+"<menuchoice><guimenu>Tools</guimenu><guimenuitem>Synchronize Notes</"
+"guimenuitem></menuchoice> from any note or from the <interface>Search All "
+"Notes</interface> dialog."
+msgstr ""
+"Své poznámky můžete synchronizovat kdykoliv zvolením "
+"<menuchoice><guimenu>Nástroje</guimenu><guimenuitem>Synchronizovat poznámky</"
+"guimenuitem></menuchoice> v kterékoliv poznámce nebo v dialogovém okně "
+"<interface>Hledat ve všech poznámkách</interface>."
+
+#: C/mnote.xml:1210(title)
+msgid "Handling synchronization conflicts"
+msgstr "Řešení synchronizačních konfliktů"
+
+#: C/mnote.xml:1212(para)
+msgid ""
+"When synchronizing notes between multiple computers, conflicts may occur. "
+"Usually this is the result of not synchronizing regularly when switching "
+"between systems. Mnote will detect conflicts in the content of your notes "
+"and help you to avoid loss of important data."
+msgstr ""
+"Když se provádí synchronizace mezi několika počítači, mohou se objevit "
+"konflikty. Obvykle jsou výsledkem nepravidelné synchronizace při střídavém "
+"používání různých systémů. Aplikace Mnote takové konflikty v obsahu vašich "
+"poznámek rozpozná a pomůže vám předejít ztrátě důležitých dat."
+
+#: C/mnote.xml:1217(para)
+msgid ""
+"If a conflict is detected during note synchronization, the <interface>Note "
+"Conflict</interface> dialog will appear. If you do not need the changes you "
+"made in your local note, you can select <guilabel>Overwrite local note</"
+"guilabel>. If you would like to keep your local changes in a new note, "
+"select <guilabel>Rename local note</guilabel>."
+msgstr ""
+"Pokud se během synchronizace narazí na konflikt, objeví se dialogové okno "
+"<interface>Konflikt v poznámce</interface>. Pokud v místní poznámce nemáte "
+"žádné potřebné údaje, můžete zvolit <guilabel>Přepsat místní poznámku</"
+"guilabel>. Jestliže ale potřebujete místní poznámku zachovat, zvolte "
+"<guilabel>Přejmenovat místní poznámku</guilabel>."
+
+#: C/mnote.xml:1226(title)
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: C/mnote.xml:1228(para)
+msgid ""
+"To set preferences for Mnote, right-click on the icon in the panel, and "
+"select <menuchoice><guimenuitem>Preferences</guimenuitem></menuchoice> from "
+"the menu. You will see a dialog similar to the one displayed in <xref "
+"linkend=\"pref-editing\"/>. There are two categories of preferences, "
+"<guilabel>Editing</guilabel> and <guilabel>Hotkeys</guilabel>. Preferences "
+"for each tab will be described below."
+msgstr ""
+"Pokud chcete nastavit předvolby pro aplikaci Mnote, klikněte pravým "
+"tlačítkem na ikonu na panelu a v nabídce zvolte "
+"<menuchoice><guimenuitem>Předvolby</guimenuitem></menuchoice>. Uvidíte "
+"dialogové okno jako na obrázku <xref linkend=\"pref-editing\"/>. Najdete v "
+"něm dvě karty s předvolbami <guilabel>Úpravy</guilabel> a "
+"<guilabel>Klávesové zkratky</guilabel>. Předvolby na jednotlivých kartách "
+"jsou popsány dále."
+
+#: C/mnote.xml:1238(title)
+msgid "Editing"
+msgstr "Úpravy"
+
+#: C/mnote.xml:1240(para)
+msgid ""
+"The editing tab will allow you to set preferences related to editing notes. "
+"There are three checkboxes on this tab, which can either be turned on or off."
+msgstr ""
+"Karta Úpravy slouží k nastavení předvoleb vztahujících se k úpravám "
+"poznámek. Na této kartě najdete tři zaškrtávací pole, která mohou být "
+"zapnutá nebo vypnutá."
+
+#: C/mnote.xml:1246(term)
+msgid "Spellcheck While Typing"
+msgstr "Kontrola překlepů během psaní"
+
+#: C/mnote.xml:1249(para)
+msgid ""
+"Enable this checkbox to underline misspellings in red, and provide "
+"suggestions in the right click context menu. Enable or disable the checkbox "
+"using the mouse or the key combination <keycombo><keycap>Alt</"
+"keycap><keycap>S</keycap></keycombo>."
+msgstr ""
+"Po zapnutí tohoto přepínače se budou pravopisně nesprávná slova podtrhávat "
+"červeně a po kliknutí pravým tlačítkem se vám budou v kontextové nabídce "
+"navrhovat správné tvary. K přepínání této volby můžete použít myš nebo "
+"kombinaci kláves <keycombo><keycap>Alt</keycap><keycap>S</keycap></keycombo>."
+
+#: C/mnote.xml:1259(para)
+msgid ""
+"The spellcheck option is only available if you have the "
+"<application>GtkSpell</application> package for your distribution installed."
+msgstr ""
+"Volba kontroly překlepů je dostupná jen v případě, že máte nainstalovaný "
+"balíček <application>GtkSpell</application> své distribuce."
+
+#: C/mnote.xml:1267(term)
+msgid "Highlight WikiWords"
+msgstr "Zvýrazňovat WikiSlova"
+
+#: C/mnote.xml:1270(para)
+msgid ""
+"Enable this checkbox to create links for phrases <literal>ThatLookLikeThis</"
+"literal>. Clicking on the link will create a new note with the title "
+"corresponding to the link text. Enable or disable this checkbox using the "
+"mouse or the key combination <keycombo><keycap>Alt</keycap><keycap>W</"
+"keycap></keycombo>."
+msgstr ""
+"Zapněte tento přepínač, aby se vytvářely odkazy na výrazy "
+"<literal>KteréVypadajíTakto</literal>. Kliknutím na odkaz se vytvoří nová "
+"poznámka s názvem odpovídajícím odkazovanému textu. K přepínání můžete "
+"použít myš nebo kombinaci kláves <keycombo><keycap>Alt</keycap><keycap>W</"
+"keycap></keycombo>."
+
+#: C/mnote.xml:1283(term)
+msgid "Use Custom Font"
+msgstr "Používat vlastní písmo"
+
+#: C/mnote.xml:1286(para)
+msgid ""
+"Enable this checkbox to set a custom font to be used in your notes. If this "
+"option is disabled, the default system font will be used. Enable or disable "
+"this checkbox using the mouse or the key combination <keycombo><keycap>Alt</"
+"keycap><keycap>F</keycap></keycombo>."
+msgstr ""
+"Po zapnutí tohoto přepínače si můžete nastavit vlastní písmo pro své "
+"poznámky. Pokud je přepínač vypnutý, používá se výchozí systémové písmo. K "
+"přepínání můžete použít myš nebo kombinaci kláves <keycombo><keycap>Alt</"
+"keycap><keycap>F</keycap></keycombo>."
+
+#: C/mnote.xml:1299(title)
+msgid "Mnote Editing Preferences"
+msgstr "Předvolby pro úpravy v Mnote"
+
+#: C/mnote.xml:1310(title)
+msgid "Hotkeys"
+msgstr "Klávesové zkratky"
+
+#: C/mnote.xml:1312(para)
+msgid ""
+"The hotkeys tab allows you to set global key combinations to perform "
+"different functions in Mnote. In order to set key combinations, you must "
+"have the <guibutton>Listen for Hotkeys</guibutton> checkbox enabled. Use "
+"<keycombo><keycap>Alt</keycap><keycap>H</keycap></keycombo> to toggle this "
+"option."
+msgstr ""
+"Karta Klávesové zkratky vám umožňuje nastavit globální kombinace kláves k "
+"provádění různých funkcí v aplikaci Mnote. Pokud chcete nastavit klávesové "
+"zkratky, musíte zapnout volbu <guibutton>Používat klávesové zkratky</"
+"guibutton>. Můžete ji přepínat i pomocí <keycombo><keycap>Alt</"
+"keycap><keycap>H</keycap></keycombo>."
+
+#: C/mnote.xml:1323(term)
+msgid "Show notes menu"
+msgstr "Zobrazit nabídku poznámek"
+
+#: C/mnote.xml:1326(para)
+msgid "Enter the key combination to open the notes menu."
+msgstr "Zadejte kombinaci kláves pro otevírání nabídky poznámek."
+
+#: C/mnote.xml:1331(term)
+msgid "Open \"Start Here\""
+msgstr "Otevřít „Začněte zde“"
+
+#: C/mnote.xml:1334(para)
+msgid ""
+"Enter the key combination to open the <quote>Start Here</quote> note, which "
+"is preinstalled with Mnote."
+msgstr ""
+"Zadejte kombinaci kláves pro otevření poznámky <quote>Začněte zde</quote>, "
+"která je v aplikaci Mnote předinstalovaná"
+
+#: C/mnote.xml:1340(term)
+msgid "Create new note"
+msgstr "Vytvořit novou poznámku"
+
+#: C/mnote.xml:1343(para)
+msgid "Enter the key combination to create a new note."
+msgstr "Zadejte kombinaci kláves pro vytvoření nové poznámky."
+
+#: C/mnote.xml:1348(term)
+msgid "Search notes"
+msgstr "Otevřít „Prohledat všechny poznámky“"
+
+#: C/mnote.xml:1351(para)
+msgid ""
+"Enter the key combination to open the <interface>Search All Notes</"
+"interface> dialog."
+msgstr ""
+"Zadejte kombinaci kláves pro otevření dialogového okna <interface>Hledat ve "
+"všech poznámkách</interface>"
+
+#: C/mnote.xml:1358(title)
+msgid "Mnote Hotkey Preferences"
+msgstr "Předvolby klávesových zkratek v Mnote"
+
+#: C/mnote.xml:1369(title)
+msgid "Synchronization"
+msgstr "Synchronizace"
+
+#: C/mnote.xml:1371(para)
+msgid "Please see <xref linkend=\"synchronization\"/> for more details."
+msgstr "Více podrobností uvádí kapitola <xref linkend=\"synchronization\"/>."
+
+#: C/mnote.xml:1376(title) C/mnote.xml:1403(title)
+msgid "Add-ins"
+msgstr "Rozšíření"
+
+#: C/mnote.xml:1378(para)
+msgid "The add-ins tab allows you to enable and configure Mnote Add-ins."
+msgstr ""
+"Na kartě Rozšíření můžete povolovat a nastavovat rozšíření pro aplikaci "
+"Mnote."
+
+#: C/mnote.xml:1381(para)
+msgid ""
+"The list of installed add-ins shows on the left. An add-in is enabled by "
+"selecting it from the list and then selecting <guibutton>Enable</guibutton>. "
+"Disable an add-in by selecting it from the list and then selecting "
+"<guibutton>Disable</guibutton>."
+msgstr ""
+"Vlevo se nachází seznam nainstalovaných rozšíření. Rozšíření povolíte tím, "
+"že jej v seznamu vyberete a zmáčknete tlačítko <guibutton>Povolit</"
+"guibutton>. Naopak zakázat jej můžete po vybraní tlačítkem "
+"<guibutton>Zakázat</guibutton>."
+
+#: C/mnote.xml:1387(para)
+msgid ""
+"Please see <xref linkend=\"plugins\"/> for more information about the add-"
+"ins that are installed with Mnote."
+msgstr ""
+"Kapitola <xref linkend=\"plugins\"/> obsahuje o rozšířeních nainstalovaných "
+"v aplikaci Mnote více podrobností."
+
+#: C/mnote.xml:1391(title)
+msgid "Mnote Add-in Preferences"
+msgstr "Předvolby pro rozšíření v Mnote"
+
+#: C/mnote.xml:1407(member)
+msgid "Backlinks"
+msgstr "Zpětné odkazy"
+
+#: C/mnote.xml:1409(member) C/mnote.xml:1446(term)
+msgid "Bugzilla URL Drop"
+msgstr "Odkazy do systému Bugzilla"
+
+#: C/mnote.xml:1411(member) C/mnote.xml:1469(term)
+msgid "Evolution Mail Drop"
+msgstr "Přetahování e-mailu z Evolution"
+
+#: C/mnote.xml:1417(member) C/mnote.xml:1511(term)
+msgid "Note of the Day"
+msgstr "Poznámka dne"
+
+#: C/mnote.xml:1419(member) C/mnote.xml:1532(term)
+msgid "Print Notes"
+msgstr "Podpora tisku"
+
+#: C/mnote.xml:1421(member)
+msgid "and Sticky Notes Import."
+msgstr "a Import lepicích poznámek."
+
+#: C/mnote.xml:1405(para)
+msgid ""
+"By default, Mnote comes with several pre-installed add-ins: <placeholder-1/> "
+"Since these are preinstalled, they are ready to use and are automatically "
+"loaded into the Mnote interface."
+msgstr ""
+"Standardně se aplikace Mnote dodává s několika předinstalovanými "
+"rozšířeními: <placeholder-1/> Vzhledem k tomu, že jsou předinstalovaná, jsou "
+"připravená k použití a automaticky se nahrávají do rozhraní aplikace Mnote."
+
+#: C/mnote.xml:1426(para)
+msgid "Some add-ins exist that are not installed by default."
+msgstr ""
+"Existují i další rozšíření, která nejsou standardní součástí instalace."
+
+#: C/mnote.xml:1431(term)
+msgid "Backlinks (What links here?)"
+msgstr "Zpětné odkazy (Které odkazy vedou sem?)"
+
+#: C/mnote.xml:1434(para)
+msgid ""
+"This add-in allows you to know which notes link to the note you are "
+"currently editing. It makes it easier to keep track of the relationships "
+"between notes. If this add-in is enabled, the <link linkend=\"tools\">Tools</"
+"link> menu will have a <guimenuitem>What links here?</guimenuitem> option. "
+"When you select this option, it will list all the notes which link to the "
+"current note in a submenu. Select a note in the submenu to open it."
+msgstr ""
+"Díky tomuto rozšíření můžete zjistit, které poznámky odkazují na poznámku, "
+"kterou máte zrovna otevřenou. Tím se usnadňuje sledování vzájemných vztahů "
+"mezi poznámkami. Pokud je toto rozšíření povolené, nabídka <link linkend="
+"\"tools\">Nástroje</link> bude obsahovat volbu <guimenuitem>Co sem odkazuje?"
+"</guimenuitem>. Pokud ji zvolíte, ukáže se vám v podnabídce seznam všech "
+"poznámek, které obsahují odkaz na současnou poznámku. Pokud některou z nic "
+"vyberete, tak se vám otevře."
+
+#: C/mnote.xml:1449(para)
+msgid ""
+"Allows you to drag a Bugzilla URL from your browser directly into a Mnote "
+"note. The bug number is inserted as a link with a small bug icon next to it. "
+"Once the Bugzilla link has been inserted into the note, click on it to open "
+"the URL in your web browser."
+msgstr ""
+"S tímto rozšířením můžete ze svého prohlížeče myší přetáhnout URL Bugzilla "
+"to poznámky Mnote. Jako odkaz se vloží číslo chyby s malou ikonou brouka po "
+"boku. Pokud máte v poznámce takto vložený odkaz do Bugzilly, stačí na něj "
+"kliknou a otevře se ve vašem prohlížeči."
+
+#: C/mnote.xml:1455(para)
+msgid ""
+"Customize the icons that are used by editing the add-in preferences in the "
+"<link linkend=\"prefs-plugins\">Preferences Dialog</link>. After "
+"highlighting the Bugzilla Add-in, click <guibutton>Preferences</guibutton> "
+"to open the <interface>Bugzilla Add-in Settings</interface> dialog. To add a "
+"new icon, click <guibutton>Add</guibutton>, select an icon on your computer, "
+"provide a Bugzilla host name (e.g., bugzilla.mate.org), and click "
+"<guibutton>Open</guibutton>. Any Bugzilla URL that is dragged and dropped "
+"from one of these custom host names will now use the icon you specified."
+msgstr ""
+"Použitou ikonu si můžete přizpůsobit změnou předvoleb rozšíření v dialogovém "
+"okně <link linkend=\"prefs-plugins\">Předvolby Mnote</link>. Vyberete "
+"rozšíření Bugzilla a kliknete na <guibutton>Nastavení</guibutton>, čímž se "
+"otevře dialogové okno <interface>Nastavení Bugzilla Links</interface>. Když "
+"chcete přidat novou ikonu, klikněte na <guibutton>Přidat</guibutton>, "
+"vyberte soubor s ikonou, zadejte název počítače hostujícího systém Bugzilla "
+"(např. bugzilla.mate.org) a klikněte na <guibutton>Otevřít</guibutton>. "
+"Všechny přetažené odkazy do systému Bugzilla s touto adresou URL budou od "
+"teď používat zvolenou ikonu."
+
+#: C/mnote.xml:1472(para)
+msgid ""
+"This add-in allows you to drag and drag an e-mail message from the "
+"<application>Evolution</application> mail application to one of your Mnote "
+"notes. Clicking on the mail icon in the note will then open the "
+"corresponding e-mail message in Evolution."
+msgstr ""
+"S tímto rozšířením můžete do poznámek Mnote myší přetahovat e-mailové zprávy "
+"z poštovní aplikace <application>Evolution</application>. Když potom v "
+"poznámce kliknete na ikonku obálky, otevře se vám příslušná e-mailová zpráva "
+"v aplikaci Evolution."
+
+#: C/mnote.xml:1483(para)
+msgid ""
+"When this add-in is installed, the <link linkend=\"tools\">Tools</link> menu "
+"will have the <guimenuitem>Export to HTML</guimenuitem> option available."
+msgstr ""
+"Pokud je nainstalováno toto rozšíření, nabídka <link linkend=\"tools"
+"\">Nástroje</link> bude obsahovat volbu <guimenuitem>Exportovat do HTML</"
+"guimenuitem>."
+
+#: C/mnote.xml:1487(para)
+msgid ""
+"After selecting this option, you will be presented with a dialog that allows "
+"you to choose where to save the <acronym>HTML</acronym> file. Enter the "
+"destination filename and click <guibutton>OK</guibutton> to save the file, "
+"or <guibutton>Cancel</guibutton> to abort the operation."
+msgstr ""
+"Po vybrání této funkce se vám ukáže dialogové okno, ve kterém si můžete "
+"vybrat, kam chcete soubor <acronym>HTML</acronym> uložit. Zadejte název "
+"výsledného souboru a klikněte na tlačítko <guibutton>OK</guibutton> pro "
+"uložení nebo na <guibutton>Zrušit</guibutton> pro přerušení operace."
+
+#: C/mnote.xml:1493(para)
+msgid ""
+"To export any notes for which a link exists in the current note, select the "
+"<guibutton>Export linked notes</guibutton> button."
+msgstr ""
+"Jestliže chcete exportovat poznámky, na které z aktuální poznámky vedou "
+"odkazy, zvolte <guibutton>Exportovat související poznámky</guibutton>."
+
+#: C/mnote.xml:1503(para)
+msgid ""
+"Allows you to use a fixed-width font when creating/editing notes. If this "
+"add-in is enabled, the <link linkend=\"text\">Text</link> menu will have a "
+"<guimenuitem>Fixed Width</guimenuitem> option."
+msgstr ""
+"Umožní vám při vytváření/úpravách poznámek používat písmo s pevnou šířkou. "
+"Pokud je nainstalováno toto rozšíření, nabídka <link linkend=\"tools\">Text</"
+"link> bude obsahovat volbu <guimenuitem>Pevná šířka</guimenuitem>."
+
+#: C/mnote.xml:1514(para)
+msgid ""
+"This add-in automatically creates a \"Today\" note for jotting daily "
+"thoughts down. The current date is used as a basis for the title of the "
+"note. As an example, the title of a \"Today\" note created on February 28, "
+"2007, would be, \"Today: Wednesday, February 28 2007\""
+msgstr ""
+"Toto rozšíření automaticky vytváří poznámku „Dnes“ pro každodenní poznámky. "
+"Jako základ názvu poznámky je použito aktuální datum. Například název "
+"poznámky „Dnes“ vytvořené 28. února 2009 by byl „Dnes: sobota, 28. únor "
+"2009“."
+
+#: C/mnote.xml:1520(para)
+msgid ""
+"If you leave a \"Today\" note unmodified, the Note of the Day Add-in will "
+"automatically delete the note."
+msgstr ""
+"Pokud do poznámky „Dnes“ nic nezapíšete, rozšíření Note of the Day ji zase "
+"automaticky vymaže."
+
+#: C/mnote.xml:1523(para)
+msgid ""
+"To customize the content of the default \"Today\" note, create a new note "
+"and change the title of the note to be, \"Today: Template\". Change the "
+"content of the template note to whatever you like. When new \"Today\" notes "
+"are created, it will then use the content of your \"Today: Template\" note."
+msgstr ""
+"Pokud si chcete přizpůsobit výchozí obsah poznámky „Dnes“, tak vytvořte "
+"novou poznámku a změňte její nadpis na „Dnes: Šablona“. Obsah poznámky si "
+"upravte podle svojí libosti. Až se napříště vytvoří nová poznámka „Dnes“, "
+"použije obsah z vaší poznámky „Dnes: Šablona“."
+
+#: C/mnote.xml:1535(para)
+msgid ""
+"When this add-in is installed, the <link linkend=\"tools\">Tools</link> menu "
+"will have the <guimenuitem>Print</guimenuitem> option available."
+msgstr ""
+"Pokud je nainstalováno toto rozšíření, nabídka <link linkend=\"tools"
+"\">Nástroje</link> bude obsahovat volbu <guimenuitem>Vytisknout</"
+"guimenuitem>."
+
+#: C/mnote.xml:1545(term)
+msgid "Sticky Notes Import"
+msgstr "Sticky Notes Import (Import z Lepicích poznámek)"
+
+#: C/mnote.xml:1548(para)
+msgid ""
+"When this add-in is installed, the <link linkend=\"tools\">Tools</link> menu "
+"will have the <guimenuitem>Import from Sticky Notes</guimenuitem> option "
+"available."
+msgstr ""
+"Pokud je nainstalováno toto rozšíření, nabídka <link linkend=\"tools"
+"\">Nástroje</link> bude obsahovat volbu <guimenuitem>Importovat z Lepicích "
+"poznámek</guimenuitem>."
+
+#: C/mnote.xml:1552(para)
+msgid ""
+"Use this option to import notes from the <application>Sticky Notes</"
+"application> application that is available in prior releases of MATE. This "
+"option has been included in Mnote to provide an upgrade path for users who "
+"would like to migrate from <application>Sticky Notes</application> to Mnote "
+"for their note taking purposes."
+msgstr ""
+"Použijte tuto možnost k importu poznámek z aplikace <application>Lepicí "
+"poznámky</application>, která je dostupná v dřívějších vydáních MATE. Tato "
+"možnost byla do aplikace Mnote začleněná, aby poskytla převod pro uživatele, "
+"kteří by rádi přešli z <application>Lepicích poznámek</application> na Mnote "
+"a přitom by chtěli zachovat existující poznámky."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/mnote.xml:0(None)
+msgid "translator-credits"
+msgstr "Marek Černocký <marek@manet.cz>"
