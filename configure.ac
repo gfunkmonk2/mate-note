@@ -27,7 +27,7 @@ GTK_VERSION=2.20
 LIBGLIBMM_VERSION=2.18
 LIBGTKMM_VERSION=2.12.0
 LIBMATECONF_VERSION=2.0.0
-LIBMATEPANELAPPLET_VERSION=2.22.0
+LIBMATEPANELAPPLETMM_VERSION=2.22.0
 GTKSPELL_VERSION=2.0.9
 BOOST_VERSION=1.34
 DBUSCPP_VERSION=0.5.0
@@ -84,11 +84,11 @@ AC_ARG_ENABLE([applet],
 	[],[enable_applet=yes])
 
 if test $enable_applet = "yes"; then
-	PKG_CHECK_EXISTS(libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION,
+	PKG_CHECK_EXISTS(libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION,
 	  [
-		AC_DEFINE(HAVE_MATEPANELAPPLET, 1, [Define to 1 if matepanelapplet is available])
+		AC_DEFINE(HAVE_MATEPANELAPPLETMM, 1, [Define to 1 if matepanelapplet is available])
 		have_matepanelapplet="yes"
-		PKG_CHECK_MODULES(LIBMATEPANELAPPLET, [libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION])
+		PKG_CHECK_MODULES(LIBMATEPANELAPPLETMM, [libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION])
 	  ], [
 		have_matepanelapplet="no"]
 	)
@@ -110,7 +110,7 @@ else
 	have_matepanelapplet="no"
 fi
 
-AM_CONDITIONAL(HAVE_MATEPANELAPPLET, test $have_matepanelapplet = "yes")
+AM_CONDITIONAL(HAVE_MATEPANELAPPLETMM, test $have_matepanelapplet = "yes")
 AC_SUBST(PANELAPPLET_SERVER_DIR)
 
 #
@@ -242,7 +242,7 @@ echo "
 Options:
 
   Spellchecking support:       ${FIXED_GTKSPELL}
-  MATE Panel Applet support:  ${have_matepanelapplet}
+  MATE Panel Applet support:   ${have_matepanelapplet}
   DBus support:                ${have_dbus}
 
 "

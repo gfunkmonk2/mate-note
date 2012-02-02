@@ -685,10 +685,10 @@ FIXED_GTKSPELL_TRUE
 GTKSPELL_LIBS
 GTKSPELL_CFLAGS
 PANELAPPLET_SERVER_DIR
-HAVE_MATEPANELAPPLET_FALSE
-HAVE_MATEPANELAPPLET_TRUE
-LIBMATEPANELAPPLET_LIBS
-LIBMATEPANELAPPLET_CFLAGS
+HAVE_MATEPANELAPPLETMM_FALSE
+HAVE_MATEPANELAPPLETMM_TRUE
+LIBMATEPANELAPPLETMM_LIBS
+LIBMATEPANELAPPLETMM_CFLAGS
 PCRE_LIBS
 PCRE_CFLAGS
 MATECONF_LIBS
@@ -770,6 +770,7 @@ PKG_CONFIG_LIBDIR
 PKG_CONFIG_PATH
 PKG_CONFIG
 LN_S
+ACLOCAL_AMFLAGS
 MAINT
 MAINTAINER_MODE_FALSE
 MAINTAINER_MODE_TRUE
@@ -891,8 +892,8 @@ MATECONF_CFLAGS
 MATECONF_LIBS
 PCRE_CFLAGS
 PCRE_LIBS
-LIBMATEPANELAPPLET_CFLAGS
-LIBMATEPANELAPPLET_LIBS
+LIBMATEPANELAPPLETMM_CFLAGS
+LIBMATEPANELAPPLETMM_LIBS
 GTKSPELL_CFLAGS
 GTKSPELL_LIBS
 BOOST_ROOT
@@ -1596,10 +1597,10 @@ Some influential environment variables:
               linker flags for MATECONF, overriding pkg-config
   PCRE_CFLAGS C compiler flags for PCRE, overriding pkg-config
   PCRE_LIBS   linker flags for PCRE, overriding pkg-config
-  LIBMATEPANELAPPLET_CFLAGS
-              C compiler flags for LIBMATEPANELAPPLET, overriding pkg-config
-  LIBMATEPANELAPPLET_LIBS
-              linker flags for LIBMATEPANELAPPLET, overriding pkg-config
+  LIBMATEPANELAPPLETMM_CFLAGS
+              C compiler flags for LIBMATEPANELAPPLETMM, overriding pkg-config
+  LIBMATEPANELAPPLETMM_LIBS
+              linker flags for LIBMATEPANELAPPLETMM, overriding pkg-config
   GTKSPELL_CFLAGS
               C compiler flags for GTKSPELL, overriding pkg-config
   GTKSPELL_LIBS
@@ -3195,7 +3196,16 @@ fi
 
 
 
-MATE_COMMON_INIT
+
+
+
+      ACLOCAL_AMFLAGS="\${ACLOCAL_FLAGS}"
+  if test -n "$ac_macro_dir"; then
+    ACLOCAL_AMFLAGS="-I $ac_macro_dir $ACLOCAL_AMFLAGS"
+  fi
+
+
+
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking whether ln -s works" >&5
 $as_echo_n "checking whether ln -s works... " >&6; }
 LN_S=$as_ln_s
@@ -3436,7 +3446,7 @@ GTK_VERSION=2.20
 LIBGLIBMM_VERSION=2.18
 LIBGTKMM_VERSION=2.12.0
 LIBMATECONF_VERSION=2.0.0
-LIBMATEPANELAPPLET_VERSION=2.22.0
+LIBMATEPANELAPPLETMM_VERSION=2.22.0
 GTKSPELL_VERSION=2.0.9
 BOOST_VERSION=1.34
 DBUSCPP_VERSION=0.5.0
@@ -16352,31 +16362,31 @@ fi
 
 if test $enable_applet = "yes"; then
 	if test -n "$PKG_CONFIG" && \
-    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"libmatepanelapplet-2.6 >= \$LIBMATEPANELAPPLET_VERSION\""; } >&5
-  ($PKG_CONFIG --exists --print-errors "libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION") 2>&5
+    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"libmatepanelappletmm-2.6 >= \$LIBMATEPANELAPPLETMM_VERSION\""; } >&5
+  ($PKG_CONFIG --exists --print-errors "libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION") 2>&5
   ac_status=$?
   $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
   test $ac_status = 0; }; then
 
 
-$as_echo "#define HAVE_MATEPANELAPPLET 1" >>confdefs.h
+$as_echo "#define HAVE_MATEPANELAPPLETMM 1" >>confdefs.h
 
 		have_matepanelapplet="yes"
 
 pkg_failed=no
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for LIBMATEPANELAPPLET" >&5
-$as_echo_n "checking for LIBMATEPANELAPPLET... " >&6; }
+{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for LIBMATEPANELAPPLETMM" >&5
+$as_echo_n "checking for LIBMATEPANELAPPLETMM... " >&6; }
 
-if test -n "$LIBMATEPANELAPPLET_CFLAGS"; then
-    pkg_cv_LIBMATEPANELAPPLET_CFLAGS="$LIBMATEPANELAPPLET_CFLAGS"
+if test -n "$LIBMATEPANELAPPLETMM_CFLAGS"; then
+    pkg_cv_LIBMATEPANELAPPLETMM_CFLAGS="$LIBMATEPANELAPPLETMM_CFLAGS"
  elif test -n "$PKG_CONFIG"; then
     if test -n "$PKG_CONFIG" && \
-    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"libmatepanelapplet-2.6 >= \$LIBMATEPANELAPPLET_VERSION\""; } >&5
-  ($PKG_CONFIG --exists --print-errors "libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION") 2>&5
+    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"libmatepanelappletmm-2.6 >= \$LIBMATEPANELAPPLETMM_VERSION\""; } >&5
+  ($PKG_CONFIG --exists --print-errors "libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION") 2>&5
   ac_status=$?
   $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
   test $ac_status = 0; }; then
-  pkg_cv_LIBMATEPANELAPPLET_CFLAGS=`$PKG_CONFIG --cflags "libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION" 2>/dev/null`
+  pkg_cv_LIBMATEPANELAPPLETMM_CFLAGS=`$PKG_CONFIG --cflags "libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes
 else
   pkg_failed=yes
@@ -16384,16 +16394,16 @@ fi
  else
     pkg_failed=untried
 fi
-if test -n "$LIBMATEPANELAPPLET_LIBS"; then
-    pkg_cv_LIBMATEPANELAPPLET_LIBS="$LIBMATEPANELAPPLET_LIBS"
+if test -n "$LIBMATEPANELAPPLETMM_LIBS"; then
+    pkg_cv_LIBMATEPANELAPPLETMM_LIBS="$LIBMATEPANELAPPLETMM_LIBS"
  elif test -n "$PKG_CONFIG"; then
     if test -n "$PKG_CONFIG" && \
-    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"libmatepanelapplet-2.6 >= \$LIBMATEPANELAPPLET_VERSION\""; } >&5
-  ($PKG_CONFIG --exists --print-errors "libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION") 2>&5
+    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"libmatepanelappletmm-2.6 >= \$LIBMATEPANELAPPLETMM_VERSION\""; } >&5
+  ($PKG_CONFIG --exists --print-errors "libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION") 2>&5
   ac_status=$?
   $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
   test $ac_status = 0; }; then
-  pkg_cv_LIBMATEPANELAPPLET_LIBS=`$PKG_CONFIG --libs "libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION" 2>/dev/null`
+  pkg_cv_LIBMATEPANELAPPLETMM_LIBS=`$PKG_CONFIG --libs "libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes
 else
   pkg_failed=yes
@@ -16414,22 +16424,22 @@ else
         _pkg_short_errors_supported=no
 fi
         if test $_pkg_short_errors_supported = yes; then
-	        LIBMATEPANELAPPLET_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION" 2>&1`
+	        LIBMATEPANELAPPLETMM_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION" 2>&1`
         else
-	        LIBMATEPANELAPPLET_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION" 2>&1`
+	        LIBMATEPANELAPPLETMM_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION" 2>&1`
         fi
 	# Put the nasty error message in config.log where it belongs
-	echo "$LIBMATEPANELAPPLET_PKG_ERRORS" >&5
+	echo "$LIBMATEPANELAPPLETMM_PKG_ERRORS" >&5
 
-	as_fn_error $? "Package requirements (libmatepanelapplet-2.6 >= $LIBMATEPANELAPPLET_VERSION) were not met:
+	as_fn_error $? "Package requirements (libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION) were not met:
 
-$LIBMATEPANELAPPLET_PKG_ERRORS
+$LIBMATEPANELAPPLETMM_PKG_ERRORS
 
 Consider adjusting the PKG_CONFIG_PATH environment variable if you
 installed software in a non-standard prefix.
 
-Alternatively, you may set the environment variables LIBMATEPANELAPPLET_CFLAGS
-and LIBMATEPANELAPPLET_LIBS to avoid the need to call pkg-config.
+Alternatively, you may set the environment variables LIBMATEPANELAPPLETMM_CFLAGS
+and LIBMATEPANELAPPLETMM_LIBS to avoid the need to call pkg-config.
 See the pkg-config man page for more details." "$LINENO" 5
 elif test $pkg_failed = untried; then
      	{ $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
@@ -16440,15 +16450,15 @@ as_fn_error $? "The pkg-config script could not be found or is too old.  Make su
 is in your PATH or set the PKG_CONFIG environment variable to the full
 path to pkg-config.
 
-Alternatively, you may set the environment variables LIBMATEPANELAPPLET_CFLAGS
-and LIBMATEPANELAPPLET_LIBS to avoid the need to call pkg-config.
+Alternatively, you may set the environment variables LIBMATEPANELAPPLETMM_CFLAGS
+and LIBMATEPANELAPPLETMM_LIBS to avoid the need to call pkg-config.
 See the pkg-config man page for more details.
 
 To get pkg-config, see <http://pkg-config.freedesktop.org/>.
 See \`config.log' for more details" "$LINENO" 5; }
 else
-	LIBMATEPANELAPPLET_CFLAGS=$pkg_cv_LIBMATEPANELAPPLET_CFLAGS
-	LIBMATEPANELAPPLET_LIBS=$pkg_cv_LIBMATEPANELAPPLET_LIBS
+	LIBMATEPANELAPPLETMM_CFLAGS=$pkg_cv_LIBMATEPANELAPPLETMM_CFLAGS
+	LIBMATEPANELAPPLETMM_LIBS=$pkg_cv_LIBMATEPANELAPPLETMM_LIBS
         { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
 $as_echo "yes" >&6; }
 
@@ -16478,11 +16488,11 @@ else
 fi
 
  if test $have_matepanelapplet = "yes"; then
-  HAVE_MATEPANELAPPLET_TRUE=
-  HAVE_MATEPANELAPPLET_FALSE='#'
+  HAVE_MATEPANELAPPLETMM_TRUE=
+  HAVE_MATEPANELAPPLETMM_FALSE='#'
 else
-  HAVE_MATEPANELAPPLET_TRUE='#'
-  HAVE_MATEPANELAPPLET_FALSE=
+  HAVE_MATEPANELAPPLETMM_TRUE='#'
+  HAVE_MATEPANELAPPLETMM_FALSE=
 fi
 
 
@@ -18995,8 +19005,8 @@ if test -z "${DEBUG_TRUE}" && test -z "${DEBUG_FALSE}"; then
   as_fn_error $? "conditional \"DEBUG\" was never defined.
 Usually this means the macro was only invoked conditionally." "$LINENO" 5
 fi
-if test -z "${HAVE_MATEPANELAPPLET_TRUE}" && test -z "${HAVE_MATEPANELAPPLET_FALSE}"; then
-  as_fn_error $? "conditional \"HAVE_MATEPANELAPPLET\" was never defined.
+if test -z "${HAVE_MATEPANELAPPLETMM_TRUE}" && test -z "${HAVE_MATEPANELAPPLETMM_FALSE}"; then
+  as_fn_error $? "conditional \"HAVE_MATEPANELAPPLETMM\" was never defined.
 Usually this means the macro was only invoked conditionally." "$LINENO" 5
 fi
 if test -z "${FIXED_GTKSPELL_TRUE}" && test -z "${FIXED_GTKSPELL_FALSE}"; then
@@ -21589,7 +21599,7 @@ echo "
 Options:
 
   Spellchecking support:       ${FIXED_GTKSPELL}
-  MATE Panel Applet support:  ${have_matepanelapplet}
+  MATE Panel Applet support:   ${have_matepanelapplet}
   DBus support:                ${have_dbus}
 
 "
