@@ -26,9 +26,9 @@
 #include <gtkmm/eventbox.h>
 #include <gtkmm/selectiondata.h>
 
-#include <libmatepanelapplet/applet.h>
-#include <libmatepanelapplet/enums.h>
-#include <libmatepanelapplet/factory.h>
+#include <libmatepanelappletmm/applet.h>
+#include <libmatepanelappletmm/enums.h>
+#include <libmatepanelappletmm/factory.h>
 
 #include "sharp/string.hpp"
 #include "sharp/uri.hpp"
