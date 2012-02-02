@@ -36,7 +36,7 @@
 #include <gtkmm/aboutdialog.h>
 
 #if HAVE_MATEPANELAPPLET
-#include <libmatepanelapplet/init.h>
+#include <libmatepanelappletmm/init.h>
 #endif
 
 #include "mnote.hpp"

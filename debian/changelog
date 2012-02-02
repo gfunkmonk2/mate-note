@@ -1,3 +1,9 @@
+mate-note (1.0.0-6) oneiric; urgency=low
+
+  * Fix build and deps for applet
+
+ -- Matt Rinsch <gfunkmonk@gmail.com>  Thu, 02 Feb 2012 04:57:40 -0500
+
 mate-note (1.0.0-5) oneiric; urgency=low
 
   * MATE Desktop webpage link in about

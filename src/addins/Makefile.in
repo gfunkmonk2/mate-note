@@ -93,6 +93,7 @@ am__relativize = \
   done; \
   reldir="$$dir2"
 ACLOCAL = @ACLOCAL@
+ACLOCAL_AMFLAGS = @ACLOCAL_AMFLAGS@
 ALL_LINGUAS = @ALL_LINGUAS@
 AMTAR = @AMTAR@
 AM_MAKEFLAGS = @AM_MAKEFLAGS@

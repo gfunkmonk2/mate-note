@@ -86,9 +86,9 @@ AC_ARG_ENABLE([applet],
 if test $enable_applet = "yes"; then
 	PKG_CHECK_EXISTS(libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION,
 	  [
-		AC_DEFINE(HAVE_MATEPANELAPPLETMM, 1, [Define to 1 if matepanelapplet is available])
+		AC_DEFINE(HAVE_MATEPANELAPPLET, 1, [Define to 1 if matepanelapplet is available])
 		have_matepanelapplet="yes"
-		PKG_CHECK_MODULES(LIBMATEPANELAPPLETMM, [libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION])
+		PKG_CHECK_MODULES(LIBMATEPANELAPPLET, [libmatepanelappletmm-2.6 >= $LIBMATEPANELAPPLETMM_VERSION])
 	  ], [
 		have_matepanelapplet="no"]
 	)
@@ -110,7 +110,7 @@ else
 	have_matepanelapplet="no"
 fi
 
-AM_CONDITIONAL(HAVE_MATEPANELAPPLETMM, test $have_matepanelapplet = "yes")
+AM_CONDITIONAL(HAVE_MATEPANELAPPLET, test $have_matepanelapplet = "yes")
 AC_SUBST(PANELAPPLET_SERVER_DIR)
 
 #
